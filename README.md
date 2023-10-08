@@ -1,2 +1,4 @@
 # belajar_python
-belajar python programming
+Belajar Python Programming
+
+I am learning Python Programming  
