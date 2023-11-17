@@ -1,0 +1,18 @@
+Lesson learned
+
+In this project, I am focusing on Logistic Regression and Gaussian-Bayesian
+
+ICA and PCA have no difference for wine data to help the logistic regression.
+The reduced dimension after PCA/ICA make the fitting process of logistic regression faster.
+
+The hardest part for me is data visualization (plotting). 
+
+I also have problem using classes and dataframe at the same time. 
+So in my work, I didn't use new classes.
+
+The Bayesian models are tricky. At first I used categorical Bayesian, but the inputs had to be categorical.
+So I changed the model into Gaussian-Bayesian.
+
+I would like to use k-Nearest Neighbour for next time.
+I would like to use Logistic-regression for next time. 
+

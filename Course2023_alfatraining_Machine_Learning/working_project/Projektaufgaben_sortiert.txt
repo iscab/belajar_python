@@ -1,0 +1,156 @@
+Die Sterne besagen, wie anspruchsvoll der Datensatz ist. 
+Für die Bewältigung von anspruchsvollen Problemen gibt es mehr Punkte.
+Datensätze mit einem Stern können aufgewertet werden, indem weitere Aufgaben damit ausgeführt werden, z.B. FeatureSelection, Bagging/Boosting, Ausreißeranalyse...
+==========================================================================
+==========================================================================
+A
+Datensätze bei denen man ziemlich stark nachdenken muss, um einen guten Score zu erreichen
+------------------------------------------------------------------------------------------
+1)*/**
+Wie wahrscheinlich ist ein stroke auf Grund von Symptomen ?
+https://www.kaggle.com/fedesoriano/stroke-prediction-dataset
+Die Schwierigkeit liegt in der Auswahl der Scores. 
+Beim richtigen Score gibt es Techniken, ihn zu verbessern. Bitte googeln oder selbst nachdenken.
+
+2) */**
+Warum schmeckt Rotwein /Weißwein gut?
+Voraussage von Bewertungen auf Grund von chemischen Eigenschaften.
+https://archive.ics.uci.edu/ml/datasets/wine+quality
+Bitte nicht die Weinsorte (weiß,rot) voraussagen, das wäre zu leicht
+Tipp: Wenn noch Zeit ist, mit verschiedenen Metriken experimentieren.
+Die Schwierigkeit liegt in der Auswahl des Scores. Falls ein Algorithmus Metriken verwendet, müssen diese zum Sachgehalt der Daten passen.
+
+3)**
+Wieviel kosten die Avocados nächstes Jahr?
+https://www.kaggle.com/datasets/timmate/avocado-prices-2020
+Tipp: jahreszeitliche Schwankungen ermitteln, indem man den Jahresmittelwert von den eigentlichen Preisen abzieht.
+Die Schwierigkeit liegt im Zuschneiden der Daten, denn es handelt sich um Zeitreihen und unterschiedliche geografische Regionen,
+
+
+4) **
+Employee Churn
+Kann man voraussagen, ob ein wertvoller Arbeitnehmer demnächst kündigen wird?
+Welche Faktoren könnten ihn dazu bewegen?
+Clustering als Vorbereitung ??
+https://www.kaggle.com/code/ayessa/employee-quitting-their-job-prediction/data
+Die Schwierigkeit liegt in der Heterogenität der Samples(Es gibt verschiedene Ursachen für churn)Achtung, hier muss noch ein anderer Datensatz benutzt werden . Bitte nachfragen !
+
+5)*/**
+Wie hoch steht demnächst der Goldpreis?
+Alternative: Wie hoch steht demnächst der Silberpreis?
+Welche Faktoren sind einflussreich?
+https://www.kaggle.com/datasets/sid321axn/gold-price-prediction-dataset
+Dies ist ein Datensatz mit 80 Spalten. Das hat hohe Laufzeiten zur Folge.
+Man könnte verschiedene Methoden der Feature-Auswahl benutzen.
+Der Goldpreis von morgen hängt vom Goldpreis von heute ab. Man muss sich die Zielspalte also erzeugen !
+
+6)*/**
+Wer gewinnt die nächste Fußball-(welt)-meisterschaft? 
+Achtung: schlechter Score ist hier zu erwarten, wenn man nicht genug unterschiedliche Datenspalten einbezieht.
+Folgende Daten können benutzt werden:
+https://www.kaggle.com/code/agostontorok/soccer-world-cup-2018-winner
+Hier gibt es zusätzliche Links auf:
+FIFA rankings from 1993 to 2018 (courtesy of Tadhg Fitzgerald)
+International Soccer matches from 1872 to 2018 (courtesy of Mart Jürisoo)
+FIFA World Cup 2018 data set (courtesy of Nuggs)
+
+Wichtig: Teilaufgaben isolieren und schon mal Zwischenergebnisse mit ML auführen.
+Z.B. Gibt es eine Beziehung zwischen den geschossenen Toren und der Rangliste?
+Dazu könnte man auch nehmen: https://www.kaggle.com/datasets/tadhgfitzgerald/fifa-international-soccer-mens-ranking-1993now
+
+===============================================================================
+
+B
+Datensätze , wo man relativ leicht einen guten Score bekommt
+------------------------------------------------------------
+1) * gut handhabbarer Datensatz, Vorbereitung und fachliche Recherche nötig
+	(Falls ** angestrebt werden, 
+	sollte eine eigene, differenzierte Scorefunktion berechnet werden )
+
+	Fahrrad: unter welchen Bedingungen fahren wie viele Fahrräder?
+	https://www.kaggle.com/datasets/hmavrodiev/london-bike-sharing-dataset
+
+	Verkehrsunfälle mit Fahrrädern
+	https://www.kaggle.com/datasets/dtuthill/london-cycling-safety
+
+2) 	gut handhabbarer Datensatz, Vorbereitung und fachliche Recherche nötig
+
+  * 	Kann man einen Herzanfall voraussagen und welche Faktoren sind relevant?
+	https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset
+ 
+3) 
+	Kann man Diabetes voraussagen und welche Faktoren sind relevant?
+  ??	https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset
+   
+  *	https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database
+	bei diesem Datensatz eventuell vorher ein Clustering machen
+	
+  ** 	2 Projekte mit je einem Datensatz durchführen 
+	und prüfen, ob man den Code des ersten Projektes so weit abstrahieren kann, 
+		dass das zweite Projekt ohne großes Nachdenken durchläuft.
+
+4) *	Kann man die Höhe eines Flugpreises voraussagen? Welche Faktoren sind relevant?
+	https://www.kaggle.com/datasets/yashdharme36/airfare-ml-predicting-flight-fares/code?								select=Cleaned_dataset.csv
+
+
+5)(*) 	Nur für Leute mit Kenntnissen in Astronomie, eventuell mit Clustering
+	Voraussage der Klasse des astronomischen Objekts anhand von optischen Kriterien
+	https://www.kaggle.com/fedesoriano/stellar-classification-dataset-sdss17
+	Einarbeitung /Vorkenntniss in Optik/Astronomie erforderlich
+
+6)(*)
+	Welchen Preis sollte ein Diamant mit bestimmten Eigenschaften haben?
+	https://www.kaggle.com/datasets/shivam2503/diamonds
+	Falls der Score auf Anhieb gut wird, solltet ihr danach streben, ihn auf 99,9% zu bringen
+
+7)*??
+	Wie wahrscheinlich ist es, dass ein Kredit zurückgezahlt wird?
+	Hier: Die Hypothese muss noch klarer formuliert werden.
+	https://www.kaggle.com/c/credit-card-default/data?select=train.csv
+
+8)*
+	Bei der Rettung von Schiffbrüchigen heißt es immer "Frauen und Kinder zuerst".
+	Stimmte das auch bei der Titanic?
+	Achtung: Aufwendige Datenanalyse nötig !
+	https://www.kaggle.com/c/titanic
+	https://www.kaggle.com/pavlofesenko/titanic-extended?select=full.csv
+	Tipp: Ergänze Daten zu Passagieren:
+	https://en.wikipedia.org/wiki/Passengers_of_the_Titanic
+	Tipp: Berechne aus den Datenspalten neue Spalten, die den Ticketpreis anders einschätzen
+	Tipp: Trenne den Datensatz in Männer und Frauen und erarbeite für jeden ein getrenntes predict
+
+	Tipp: keine competition daraus machen!
+	Vergleiche auch Tutorial:https://www.kaggle.com/alexisbcook/titanic-tutorial
+
+
+9) sehr leicht
+Voraussage des Examens-Erfolgs von Studenten
+https://www.kaggle.com/csafrit2/higher-education-students-performance-evaluation
+
+
+
+==============================================================
+C
+Komplexe Daten 
+------------------
+1) 
+hier müsste man sich noch eigene Daten besorgen. Vielleicht hat jemand Zugang zu einem Finanzportal...
+Voraussage von Aktienkursen oder Umsatz oder Gewinn
+anhand von Fundamentaldaten und/oder allgemeinen Wirtschaftsdaten (z.B. Dax,...)
+morningstar.com , "yahoo" + "finance"
+Daten müssten gesucht werden
+
+2) Mobilität
+gemäß Daten vom Deutschen Mobilitätspanel , Daten müssten gesucht werden
+z.B. weitere Infos im beigelegten Aufsatz
+Interessante Hypothese, wer Fahrrad fährt !Echte Forschung !
+
+3)Voraussagen zum Strompreis
+Wetterdaten lassen eine Voraussage zu, wieviel Solarstrom/Winkraftstrom zu erwarten ist.
+Das wirkt sich auf den Energiemix des folgenden Tages aus. Der Mix bestimmt, wie teuer der Strom heute eingekauft werden muss, damit am folgenden Tag genug vorhanden ist.
+https://www.destatis.de/DE/Themen/Branchen-Unternehmen/Energie/Erzeugung/_inhalt.html#236466
+https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/Monitoringberichte/InformationenDatenuebermittlung/Energiedatenportal/energiedatenportal-node.html
+https://www.agora-energiewende.de
+https://www.agora-energiewende.de/service/agorameter/chart/power_generation_price/13.02.2023/16.03.2023/today/
+
+
