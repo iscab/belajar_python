@@ -1,0 +1,53 @@
+11:00 16.10.2023
+
+
+Bahn versus Auto
+P(Auto) = 65/100
+P(Bahn) = 1 - 65/100 = 35/100  
+
+P(pünktlich | Bahn) = 4/13  
+
+P(pünktlich | Auto) = 14/35  
+
+P(unpünktlich | Bahn) = ...?  
+P(Bahn | unpünktlich) = ...?  
+
+
+P(unpünktlich | Bahn) = 1 - 4/13 = 9/13       ???
+P(unpünktlich | Auto) = 1 - 14/35 =  21/35     ???  
+
+P(unpünktlich | Bahn) * P(Bahn) = P(unpünktlich AND Bahn)  = P(Bahn | unpünktlich) * P(unpünktlich)  
+
+P(unpünktlich) = ...?
+
+
+P(unpünktlich) = P(unpünktlich AND Bahn) + P(unpünktlich AND Auto)
+
+P(unpünktlich) = P(unpünktlich | Bahn)*P(Bahn) + P(unpünktlich | Auto)*P(Auto)
+P(unpünktlich) = 9/13 * 35/100 + 21/35 * 65/100
+
+P(Bahn | unpünktlich) = P(unpünktlich | Bahn) * P(Bahn) / P(unpünktlich) = (9/13* 35/100) / (9/13 * 35/100 + 21/35 * 65/100)
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
