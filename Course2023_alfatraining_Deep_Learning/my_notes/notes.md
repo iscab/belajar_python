@@ -1,7 +1,7 @@
 # NOTES #
 
 notes and important links for alfatraining course in deep learning, in 2023  
-(version: 08:00 18.01.2024  
+(version: 14:04 19.01.2024)  
 
 
 Deep Learning Book: A. Geron, 2023, "Praxiseinstieg Machine Learning mit Scikit-Learn, Keras und TensorFlow"  
@@ -33,6 +33,24 @@ Rangfolge:
 
 * [Ranking](https://en.wikipedia.org/wiki/Ranking), on wikipedia  
 * [Rangordnung](https://de.wikipedia.org/wiki/Rangordnung), on german wikipedia  
+
+
+TensorFlow:  
+
+* [TensorFlow website](https://www.tensorflow.org/)  
+* [TensorFlow installation with Anaconda](https://docs.anaconda.com/free/anaconda/applications/tensorflow/)  
+* [TensorFlow installation with pip](https://www.tensorflow.org/install/pip#windows-native)  
+* [TensorFlow](https://en.wikipedia.org/wiki/TensorFlow), on wikipedia  
+* [TensorFlow](https://de.wikipedia.org/wiki/TensorFlow), on german wikipedia  
+* [TensorFlow](https://id.wikipedia.org/wiki/TensorFlow), di wikipedia Indonesia  
+
+
+Keras:  
+
+* [Keras website](https://keras.io/)  
+* [Keras API](https://keras.io/api/)  
+* [Keras](https://en.wikipedia.org/wiki/Keras), on wikipedia  
+* [Keras](https://de.wikipedia.org/wiki/Keras), on german wikipedia  
 
 
 ### Project: EEG Data processing and classification (CANCELED)  
@@ -78,9 +96,11 @@ check:
 * [alfatraining](https://www.alfatraining.de/gefoerderte-weiterbildung/) courses  
 * [alfatraining](https://www.alfatraining.de/) website  
 * detailed in [my private repository](https://bitbucket.org/iscab/alfatraining_2023_deep_learning/)  
+* [this notes on github](https://github.com/iscab/belajar_python/blob/main/Course2023_alfatraining_Deep_Learning/my_notes/notes.md)  
+* [this notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_deep_learning/src/master/my_notes/notes.md)  
 
 
-version: 08:00 18.01.2024  
+version: 14:04 19.01.2024  
 
 # End of File
 
