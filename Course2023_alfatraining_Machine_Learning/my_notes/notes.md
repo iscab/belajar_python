@@ -1,7 +1,7 @@
 # NOTES #
 
 notes and important links for alfatraining course in machine learning, in 2023  
-(version: 14:04 19.01.2024) 
+(version: 08:00 26.01.2024) 
 
 
 Machine Learning Book: Jörg Frochte, 2020, "Maschinelles Lernen — Grundlagen und Algorithmen in Python"  
@@ -107,6 +107,57 @@ Polynomials, with sklearn (scikit-learn):
 * [PolynomialFeatures in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.PolynomialFeatures.html) to generate polynomial and interaction features  
 
 
+Numpy:  
+
+* [numpy.newaxis](https://numpy.org/doc/stable/reference/constants.html#numpy.newaxis) as convenient alias for None, useful for indexing arrays  
+* [How do I use np.newaxis?](https://stackoverflow.com/questions/29241056/how-do-i-use-np-newaxis)  
+* [numpy.dot](https://numpy.org/doc/stable/reference/generated/numpy.dot.html) as Dot product of two arrays  
+* [numpy.arange](https://numpy.org/doc/stable/reference/generated/numpy.arange.html) to return evenly spaced values within a given interval  
+* [numpy.linspace](https://numpy.org/doc/stable/reference/generated/numpy.linspace.html) to return evenly spaced numbers over a specified interval  
+* [numpy.logspace](https://numpy.org/doc/stable/reference/generated/numpy.logspace.html) to return numbers spaced evenly on a log scale  
+
+
+Train and test data split:  
+
+* [train_test_split in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html) to split arrays or matrices into random train and test subsets  
+
+
+Linear Regression / Linear Model, with sklearn (scikit-learn):  
+
+* [Linear Models](https://scikit-learn.org/stable/modules/linear_model.html)  
+* list of [Linear Models in sklearn](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.linear_model)  
+* [LinearRegression in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html), as Ordinary least squares Linear Regression  
+* [Lasso](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Lasso.html#sklearn.linear_model.Lasso), as Linear Model trained with L1 prior as regularizer (aka the Lasso)  
+* [Ridge](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Ridge.html#sklearn.linear_model.Ridge), as Linear least squares with l2 regularization  
+* [LogisticRegression in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html), as logit, MaxEnt classifier  
+
+
+Logistic Regression:  
+
+* [Logit and Expit](https://statisticaloddsandends.wordpress.com/2020/06/24/logit-and-expit/)  
+* [Logit](https://en.wikipedia.org/wiki/Logit), on wikipedia  
+* [Logit](https://de.wikipedia.org/wiki/Logit), on german wikipedia  
+* [Probit](https://en.wikipedia.org/wiki/Probit), on wikipedia  
+* [Probit](https://de.wikipedia.org/wiki/Probit), on german wikipedia  
+* [Ridit scoring](https://en.wikipedia.org/wiki/Ridit_scoring), on wikipedia  
+
+
+k-Nearest Neighbors (k-NN):  
+
+* [Nächste-Nachbarn-Klassifikation](https://www.python-kurs.eu/naechste_nachbarn_klassifikation.php)  
+* [Nächste-Nachbarn-Klassifikation mit sklearn](https://www.python-kurs.eu/naechste_nachbarn_klassifikation_sklearn.php)  
+* [k-nearest neighbors algorithm](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm), on wikipedia  
+* [Nächste-Nachbarn-Klassifikation](https://de.wikipedia.org/wiki/N%C3%A4chste-Nachbarn-Klassifikation), on german wikipedia  
+* [Algoritma k tetangga terdekat](https://id.wikipedia.org/wiki/Algoritme_k_tetangga_terdekat), di wikipedia Indonesia  
+
+
+k-Nearest Neighbors (k-NN), with sklearn (scikit-learn):  
+
+* [Nearest Neighbors](https://scikit-learn.org/stable/modules/neighbors.html)  
+* list of [Nearest Neighbors algorithms in sklearn](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.neighbors)  
+* [KNeighborsClassifier in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html)  
+
+
 ### Project: Warum schmeckt Rotwein /Weißwein gut?  
 
 
@@ -135,7 +186,7 @@ check:
 * [this notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_machine_learning/src/master/my_notes/notes.md)  
 
 
-version: 14:04 19.01.2024  
+version: 08:00 26.01.2024  
 
 # End of File
 
