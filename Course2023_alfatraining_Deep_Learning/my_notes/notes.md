@@ -1,7 +1,7 @@
 # NOTES #
 
 notes and important links for alfatraining course in deep learning, in 2023  
-(version: 14:04 19.01.2024)  
+(version: 08:00 26.01.2024)  
 
 
 Deep Learning Book: A. Geron, 2023, "Praxiseinstieg Machine Learning mit Scikit-Learn, Keras und TensorFlow"  
@@ -53,6 +53,55 @@ Keras:
 * [Keras](https://de.wikipedia.org/wiki/Keras), on german wikipedia  
 
 
+PyTorch:
+
+* [PyTorch website](https://pytorch.org/)  
+* [PyTorch](https://en.wikipedia.org/wiki/PyTorch), on wikipedia  
+* [PyTorch](https://de.wikipedia.org/wiki/PyTorch), on german wikipedia  
+* [PyTorch](https://id.wikipedia.org/wiki/PyTorch), di wikipedia Indonesia  
+
+
+OpenCV-Python
+
+* [OpenCV-Python Tutorials](https://docs.opencv.org/3.4/d6/d00/tutorial_py_root.html)  
+* [opencv-python on pypi](https://pypi.org/project/opencv-python/) as wrapper package for OpenCV python bindings  
+
+
+OpenNN:  open-source neural networks library for machine learning with C++  
+
+* [OpenNN website](https://www.opennn.net/)  
+* [OpenNN on github](https://github.com/Artelnics/opennn)  
+* [OpenNN](https://en.wikipedia.org/wiki/OpenNN), on wikipedia  
+* [OpenNN](https://de.wikipedia.org/wiki/OpenNN), on german wikipedia  
+
+
+Apache Mahout:  distributed linear algebra framework and mathematically expressive Scala DSL  
+
+* [Apache Mahout website](https://mahout.apache.org/)  
+* [Apache Mahout](https://en.wikipedia.org/wiki/Apache_Mahout), on wikipedia  
+
+
+Google JAX:  machine learning framework for transforming numerical functions  
+
+* [Google JAX on github](https://github.com/google/jax)  
+* [Google JAX](https://en.wikipedia.org/wiki/Google_JAX), on wikipedia  
+
+
+MATLAB & Octave:  
+
+* [MATLAB](https://www.mathworks.com/products/matlab.html)  
+* [Octave](https://octave.org/)  
+
+
+first week coding tips:  
+
+* [numpy.reshape](https://numpy.org/doc/stable/reference/generated/numpy.reshape.html#numpy.reshape)  
+* ["cloning" a row or column vector to a matrix](https://stackoverflow.com/questions/1550130/cloning-row-or-column-vectors)  
+* [Error in Python script "Expected 2D array, got 1D array instead:"](https://stackoverflow.com/questions/45554008/error-in-python-script-expected-2d-array-got-1d-array-instead)  
+* [Reading tab-delimited file with Pandas](https://stackoverflow.com/questions/27896214/reading-tab-delimited-file-with-pandas-works-on-windows-but-not-on-mac)  
+* [Load a pandas DataFrame, with TensorFlow](https://www.tensorflow.org/tutorials/load_data/pandas_dataframe)  
+
+
 ### Project: EEG Data processing and classification (CANCELED)  
 
 This topic were not chosen because the data loading was tricky and also my data was credential. 
@@ -100,7 +149,7 @@ check:
 * [this notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_deep_learning/src/master/my_notes/notes.md)  
 
 
-version: 14:04 19.01.2024  
+version: 08:00 26.01.2024  
 
 # End of File
 
