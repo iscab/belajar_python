@@ -1,7 +1,7 @@
 # NOTES #
 
 notes and important links for alfatraining course in deep learning, in 2023  
-(version: 08:00 26.01.2024)  
+(version: 02:12 02.02.2024)  
 
 
 Deep Learning Book: A. Geron, 2023, "Praxiseinstieg Machine Learning mit Scikit-Learn, Keras und TensorFlow"  
@@ -102,6 +102,80 @@ first week coding tips:
 * [Load a pandas DataFrame, with TensorFlow](https://www.tensorflow.org/tutorials/load_data/pandas_dataframe)  
 
 
+A Neural Network PlayGround: Tinker With a Neural Network:  
+
+* [TensorFlow Playground](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.83868&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false)  
+* [TensorFlow Playground](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=spiral&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=10&networkShape=7,5,3&seed=0.83001&showTestData=false&discretize=false&percTrainData=60&x=true&y=true&xTimesY=true&xSquared=true&ySquared=true&cosX=false&sinX=true&cosY=false&sinY=true&collectStats=false&problem=classification&initZero=false&hideText=false)  
+
+
+loss function & minimization/optimization:  
+
+* [Least squares](https://en.wikipedia.org/wiki/Least_squares), on wikipedia  
+* [Methode der kleinsten Quadrate](https://de.wikipedia.org/wiki/Methode_der_kleinsten_Quadrate), on german wikipedia  
+
+
+Activation functions:  
+
+* [Layer activation functions, in Keras](https://keras.io/api/layers/activations/)  
+* [Activation function](https://en.wikipedia.org/wiki/Activation_function), on wikipedia  
+* [Aktivierungsfunktionen von Künstliches Neuron](https://de.wikipedia.org/wiki/K%C3%BCnstliches_Neuron#Aktivierungsfunktionen), on german wikipedia  
+* [plot of Logistic function](https://scikit-learn.org/stable/auto_examples/linear_model/plot_logistic.html#sphx-glr-auto-examples-linear-model-plot-logistic-py)  
+
+
+third day discussion links:  
+
+* [Why Gaussian Error Linear Units (GELUs) activation function is used instead of ReLu in BERT?](https://stackoverflow.com/questions/57532679/why-gelu-activation-function-is-used-instead-of-relu-in-bert)  
+* [Levenberg–Marquardt algorithm](https://en.wikipedia.org/wiki/Levenberg%E2%80%93Marquardt_algorithm), on wikipedia  
+* [Levenberg-Marquardt-Algorithmus](https://de.wikipedia.org/wiki/Levenberg-Marquardt-Algorithmus), on german wikipedia  
+* [Glorot and Bengio, 2010](https://proceedings.mlr.press/v9/glorot10a.html) paper, "Understanding the difficulty of training deep feedforward neural networks"  
+* [Enable GPU acceleration for TensorFlow 2 with tensorflow-directml-plugin](https://learn.microsoft.com/en-us/windows/ai/directml/gpu-tensorflow-plugin)  
+
+```
+pip install tensorflow-directml-plugin  
+```
+
+
+Deep Learning: Neuronale Netze mit Keras  
+
+* [Dense layer, in Keras](https://keras.io/api/layers/core_layers/dense/)  
+* [Keras - Dense Layer](https://www.tutorialspoint.com/keras/keras_dense_layer.htm) tutorial  
+* [Model training APIs, in Keras](https://keras.io/api/models/model_training_apis/)  
+* [Create a Machine Learning model with Keras and TensorFlow](https://towardsdatascience.com/3-ways-to-create-a-machine-learning-model-with-keras-and-tensorflow-2-0-de09323af4d3):  Sequential, Functional, and Model Subclassing  
+
+
+Keras Model:  
+
+* [Models API, in Keras](https://keras.io/api/models/)  
+* [The Model class, in Keras](https://keras.io/api/models/model/#model-class)  
+* [tf.keras.Model](https://www.tensorflow.org/api_docs/python/tf/keras/Model), in TensorFlow documentation  
+
+
+Keras Model evaluation:  
+
+* [evaluate in tf.keras.Model](https://www.tensorflow.org/api_docs/python/tf/keras/Model#evaluate), in TensorFlow documentation  
+* [How to evaluate a keras model?](https://www.projectpro.io/recipes/evaluate-keras-model)  
+* [Keras - Model Evaluation and Model Prediction](https://www.tutorialspoint.com/keras/keras_model_evaluation_and_prediction.htm) tutorial  
+
+
+Keras callbacks:  
+
+* [Callbacks API, in Keras](https://keras.io/api/callbacks/)  
+* A callback is an object that can perform actions at various stages of training (e.g. at the start or end of an epoch, before or after a single batch, etc)  
+* [LambdaCallback class, in Keras](https://keras.io/api/callbacks/lambda_callback/), as the Callback for creating simple, custom callbacks on-the-fly  
+* [RemoteMonitor class, in Keras](https://keras.io/api/callbacks/remote_monitor/), as the Callback used to stream events to a server  
+* [tf.keras.callbacks.RemoteMonitor](https://www.tensorflow.org/api_docs/python/tf/keras/callbacks/RemoteMonitor), in TensorFlow documentation  
+
+
+Examples of data, in scikit-learn (sklearn), Keras, etc:  
+
+* [Real world datasets, in sklearn](https://scikit-learn.org/stable/datasets/real_world.html)  
+* [California Housing price regression dataset, in Keras](https://keras.io/api/datasets/california_housing/)  
+* [fetch_california_housing, in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.fetch_california_housing.html), to load the California housing dataset  
+* [astroNN](https://astronn.readthedocs.io/en/stable/) is a python package to do various kinds of neural networks with targeted application in astronomy by using Keras API  
+* [Galaxy10 SDSS Dataset, in astroNN](https://astronn.readthedocs.io/en/latest/galaxy10sdss.html) 
+* [Download Galaxy10 SDSS](https://astronn.readthedocs.io/en/latest/galaxy10sdss.html#download-galaxy10-sdss) 
+
+
 ### Project: EEG Data processing and classification (CANCELED)  
 
 This topic were not chosen because the data loading was tricky and also my data was credential. 
@@ -149,7 +223,7 @@ check:
 * [this notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_deep_learning/src/master/my_notes/notes.md)  
 
 
-version: 08:00 26.01.2024  
+version: 02:12 02.02.2024  
 
 # End of File
 
