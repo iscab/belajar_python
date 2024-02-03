@@ -1,7 +1,7 @@
 # NOTES #
 
 notes and important links for alfatraining course in machine learning, in 2023  
-(version: 08:00 26.01.2024) 
+(version: 02:12 02.02.2024) 
 
 
 Machine Learning Book: Jörg Frochte, 2020, "Maschinelles Lernen — Grundlagen und Algorithmen in Python"  
@@ -156,6 +156,76 @@ k-Nearest Neighbors (k-NN), with sklearn (scikit-learn):
 * [Nearest Neighbors](https://scikit-learn.org/stable/modules/neighbors.html)  
 * list of [Nearest Neighbors algorithms in sklearn](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.neighbors)  
 * [KNeighborsClassifier in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html)  
+* [BallTree in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.BallTree.html#sklearn.neighbors.BallTree)  
+* [KDTree in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KDTree.html#sklearn.neighbors.KDTree)  
+
+
+Distances:  
+
+* [distance_metrics, in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.pairwise.distance_metrics.html#sklearn.metrics.pairwise.distance_metrics)  
+
+
+Mahalanobis Distances:  
+
+* [Mahalanobis distance](https://en.wikipedia.org/wiki/Mahalanobis_distance), on wikipedia  
+* [Mahalanobis-Abstand](https://de.wikipedia.org/wiki/Mahalanobis-Abstand), on german wikipedia  
+* [Jarak Mahalanobis](https://id.wikipedia.org/wiki/Jarak_Mahalanobis), di wikipedia Indonesia  
+
+
+Haversine Distances, on a sphere as longitude and latitude:  
+
+* [haversine_distances, in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.pairwise.haversine_distances.html)  
+* [Haversine formula](https://en.wikipedia.org/wiki/Haversine_formula), on wikipedia  
+
+
+Cosine Distances:  
+
+* [cosine_distances, in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.pairwise.cosine_distances.html#sklearn.metrics.pairwise.cosine_distances) is defined as 1.0 minus the cosine similarity  
+* [cosine_similarity, in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.pairwise.cosine_similarity.html#sklearn.metrics.pairwise.cosine_similarity) computes similarity as the normalized dot product of X and Y  
+* [Cosine similarity](https://en.wikipedia.org/wiki/Cosine_similarity), on wikipedia  
+* [Kosinus-Ähnlichkeit](https://de.wikipedia.org/wiki/Kosinus-%C3%84hnlichkeit), on german wikipedia  
+
+
+Handling anomalies and missing data, in kNN with scikit-learn (sklearn):  
+
+* [LocalOutlierFactor, in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.LocalOutlierFactor.html#sklearn.neighbors.LocalOutlierFactor), as an Unsupervised Outlier Detection using the Local Outlier Factor (LOF)  
+* [RadiusNeighborsClassifier, in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.RadiusNeighborsClassifier.html), as a Classifier implementing a vote among neighbors within a given radius  
+* [KNNImputer, in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.impute.KNNImputer.html), as Imputation for completing missing values using k-Nearest Neighbors  
+
+
+Data sets in scikit-learn (sklearn):  
+
+* list of [Datasets, in sklearn](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.datasets)  
+* [load_iris, in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_iris.html#sklearn.datasets.load_iris), to load and return the iris dataset, as a classic and very easy multi-class classification dataset  
+
+
+Decision Tree: Gini, Entropy, and Information Gain  
+
+* [Entropie (Informationstheorie)](https://de.wikipedia.org/wiki/Entropie_(Informationstheorie)), on german wikipedia  
+* [Entropy (information theory)](https://en.wikipedia.org/wiki/Entropy_(information_theory)), on wikipedia  
+* [Entropi (teori informasi)](https://id.wikipedia.org/wiki/Entropi_(teori_informasi)), di wikipedia Indonesia  
+* [Informationsgehalt](https://de.wikipedia.org/wiki/Informationsgehalt), on german wikipedia  
+* [Information content](https://en.wikipedia.org/wiki/Information_content), on wikipedia  
+* [Information gain (decision tree)](https://en.wikipedia.org/wiki/Information_gain_(decision_tree)), on wikipedia  
+* [Entropie - Von Kühltürmen und der Unumkehrbarkeit der Dinge](https://www.youtube.com/watch?v=z64PJwXy--8), on youtube (13 minutes)  
+* [Decision Trees: Gini vs Entropy](https://quantdare.com/decision-trees-gini-vs-entropy/)  
+* [Entropy and Information Gain, in Machine Learning](https://www.section.io/engineering-education/entropy-information-gain-machine-learning/)  
+* [How Decision tree classification and regression algorithm works](https://pro.arcgis.com/en/pro-app/latest/tool-reference/geoai/how-decision-tree-classification-and-regression-works.htm)  
+
+
+Decision Tree:  
+
+* [Decision Trees, in sklearn](https://scikit-learn.org/stable/modules/tree.html)  
+* [Decision tree learning](https://en.wikipedia.org/wiki/Decision_tree_learning), on wikipedia  
+* [sklearn.tree: Decision Trees, in sklearn](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.tree)  
+* [DecisionTreeClassifier, in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html)  
+* [DecisionTreeRegressor, in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeRegressor.html)  
+
+
+Otsu's method, to perform automatic image thresholding:  
+
+* [Otsu's method](https://en.wikipedia.org/wiki/Otsu%27s_method), on wikipedia  
+* [Metode Otsu](https://id.wikipedia.org/wiki/Metode_Otsu), di wikipedia Indonesia  
 
 
 ### Project: Warum schmeckt Rotwein /Weißwein gut?  
@@ -186,7 +256,7 @@ check:
 * [this notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_machine_learning/src/master/my_notes/notes.md)  
 
 
-version: 08:00 26.01.2024  
+version: 02:12 02.02.2024
 
 # End of File
 
