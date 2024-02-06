@@ -1,7 +1,7 @@
 # NOTES #
 
 notes and important links for alfatraining course in machine learning, in 2023  
-(version: 02:12 02.02.2024) 
+(version: 00:00 06.02.2024) 
 
 
 Machine Learning Book: Jörg Frochte, 2020, "Maschinelles Lernen — Grundlagen und Algorithmen in Python"  
@@ -213,6 +213,9 @@ Decision Tree: Gini, Entropy, and Information Gain
 * [How Decision tree classification and regression algorithm works](https://pro.arcgis.com/en/pro-app/latest/tool-reference/geoai/how-decision-tree-classification-and-regression-works.htm)  
 
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/z64PJwXy--8/0.jpg)](https://www.youtube.com/watch?v=z64PJwXy--8)
+
+
 Decision Tree:  
 
 * [Decision Trees, in sklearn](https://scikit-learn.org/stable/modules/tree.html)  
@@ -226,6 +229,21 @@ Otsu's method, to perform automatic image thresholding:
 
 * [Otsu's method](https://en.wikipedia.org/wiki/Otsu%27s_method), on wikipedia  
 * [Metode Otsu](https://id.wikipedia.org/wiki/Metode_Otsu), di wikipedia Indonesia  
+
+
+Visualization of tree:  
+
+* [plot_tree, in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.tree.plot_tree.html#sklearn.tree.plot_tree), to plot a decision tree  
+* [export_graphviz, in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.tree.export_graphviz.html#sklearn.tree.export_graphviz), to export a decision tree in DOT format  
+* [DOT (graph description language)](https://en.wikipedia.org/wiki/DOT_(graph_description_language)), on wikipedia  
+* [DOT (Graphviz)](https://de.wikipedia.org/wiki/DOT_(Graphviz)), on german wikipedia  
+* [DOT (bahasa yang mendeskripsikan grafik)](https://id.wikipedia.org/wiki/DOT_(bahasa_yang_mendeskripsikan_grafik)), di wikipedia Indonesia  
+
+
+Support Vector Machines (SVM), from Jake VanderPlas "Python Data Science Handbook":  
+
+* [In Depth: Support Vector Machines](https://jakevdp.github.io/PythonDataScienceHandbook/05.07-support-vector-machines.html), on github page  
+* [In Depth: Support Vector Machines](https://github.com/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.07-Support-Vector-Machines.ipynb), as examples on github repository  
 
 
 ### Project: Warum schmeckt Rotwein /Weißwein gut?  
@@ -247,6 +265,9 @@ Wine Quality: Data Sets and Information
 * google drive links?  
 
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/lHwESP3-Efg/0.jpg)](https://www.youtube.com/watch?v=lHwESP3-Efg&t=0s)
+
+
 check:  
 
 * [alfatraining](https://www.alfatraining.de/gefoerderte-weiterbildung/) courses  
@@ -256,7 +277,7 @@ check:
 * [this notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_machine_learning/src/master/my_notes/notes.md)  
 
 
-version: 02:12 02.02.2024
+version: 00:00 06.02.2024
 
 # End of File
 
