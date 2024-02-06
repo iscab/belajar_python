@@ -1,7 +1,7 @@
 # NOTES #
 
 notes and important links for alfatraining course in deep learning, in 2023  
-(version: 02:12 02.02.2024)  
+(version: 00:00 06.02.2024)  
 
 
 Deep Learning Book: A. Geron, 2023, "Praxiseinstieg Machine Learning mit Scikit-Learn, Keras und TensorFlow"  
@@ -176,6 +176,28 @@ Examples of data, in scikit-learn (sklearn), Keras, etc:
 * [Download Galaxy10 SDSS](https://astronn.readthedocs.io/en/latest/galaxy10sdss.html#download-galaxy10-sdss) 
 
 
+Metrics, in scikit-learn (sklearn) and Keras:  
+
+* list of [Metrics, in Keras API](https://keras.io/api/metrics/), contain functions that are used to judge the performance of your model  
+* list of [Regression metrics, in Keras](https://keras.io/api/metrics/regression_metrics/), contain classes: MeanSquaredError, RootMeanSquaredError, MeanAbsoluteError, MeanAbsolutePercentageError, MeanSquaredLogarithmicError, CosineSimilarity, LogCoshError  
+* [tf.keras.metrics.R2Score](https://www.tensorflow.org/api_docs/python/tf/keras/metrics/R2Score), in TensorFlow documentation  
+* [r2_score, in sklearn](https://scikit-learn.org/stable/modules/model_evaluation.html#r2-score), for computing the coefficient of determination  
+
+
+Loss Function, in Keras:  
+
+* list of [Losses, in Keras API](https://keras.io/api/losses/)  
+* list of [Probabilistic losses, in Keras API](https://keras.io/api/losses/probabilistic_losses/)  
+* list of [Regression losses, in Keras API](https://keras.io/api/losses/regression_losses/)  
+
+
+Cross Entropy:  
+
+* [Cross-entropy](https://en.wikipedia.org/wiki/Cross-entropy), on wikipedia  
+* [Kreuzentropie](https://de.wikipedia.org/wiki/Kreuzentropie), on german wikipedia  
+* [One-Hot Encoding for Machine Learning with TensorFlow 2.0 and Keras](https://github.com/christianversloot/machine-learning-articles/blob/main/one-hot-encoding-for-machine-learning-with-tensorflow-and-keras.md), on github  
+
+
 ### Project: EEG Data processing and classification (CANCELED)  
 
 This topic were not chosen because the data loading was tricky and also my data was credential. 
@@ -223,7 +245,7 @@ check:
 * [this notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_deep_learning/src/master/my_notes/notes.md)  
 
 
-version: 02:12 02.02.2024  
+version: 00:00 06.02.2024
 
 # End of File
 
