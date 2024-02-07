@@ -1,7 +1,7 @@
 # NOTES #
 
 notes and important links for alfatraining course in python programming, in 2023  
-(version: 14:24 19.01.2024) 
+(version: 00:22 06.02.2024) 
 
 
 Question: what is assignment ":=" in python?  
@@ -74,10 +74,14 @@ check:
 * [alfatraining](https://www.alfatraining.de/gefoerderte-weiterbildung/) courses  
 * [alfatraining](https://www.alfatraining.de/) website  
 * detailed in [my private repository](https://bitbucket.org/iscab/alfatraining_2023_python/)  
-* [this notes on github](https://github.com/iscab/belajar_python/blob/main/Course2023_alfatraining_Python_Programmierung/my_notes/notes.md)  
-* [this notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_python/src/master/my_notes/notes.md)  
+* [this python notes on github](https://github.com/iscab/belajar_python/blob/main/Course2023_alfatraining_Python_Programmierung/my_notes/notes.md)  
+* [this python notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_python/src/master/my_notes/notes.md)  
+* [other machine learning notes on github](https://github.com/iscab/belajar_python/blob/main/Course2023_alfatraining_Machine_Learning/my_notes/notes.md)  
+* [other machine learning notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_machine_learning/src/master/my_notes/notes.md)  
+* [other deep learning notes on github](https://github.com/iscab/belajar_python/blob/main/Course2023_alfatraining_Deep_Learning/my_notes/notes.md)  
+* [other deep learning notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_deep_learning/src/master/my_notes/notes.md)  
 
 
-version: 14:24 19.01.2024  
+version: 00:22 06.02.2024  
 
 # End of File
