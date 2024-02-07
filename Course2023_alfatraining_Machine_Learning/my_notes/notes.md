@@ -1,7 +1,7 @@
 # NOTES #
 
 notes and important links for alfatraining course in machine learning, in 2023  
-(version: 00:00 06.02.2024) 
+(version: 00:22 06.02.2024) 
 
 
 Machine Learning Book: Jörg Frochte, 2020, "Maschinelles Lernen — Grundlagen und Algorithmen in Python"  
@@ -213,7 +213,7 @@ Decision Tree: Gini, Entropy, and Information Gain
 * [How Decision tree classification and regression algorithm works](https://pro.arcgis.com/en/pro-app/latest/tool-reference/geoai/how-decision-tree-classification-and-regression-works.htm)  
 
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/z64PJwXy--8/0.jpg)](https://www.youtube.com/watch?v=z64PJwXy--8)
+[![Entropie - Von Kühltürmen und der Unumkehrbarkeit der Dinge](https://img.youtube.com/vi/z64PJwXy--8/0.jpg)](https://www.youtube.com/watch?v=z64PJwXy--8)
 
 
 Decision Tree:  
@@ -246,6 +246,25 @@ Support Vector Machines (SVM), from Jake VanderPlas "Python Data Science Handboo
 * [In Depth: Support Vector Machines](https://github.com/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.07-Support-Vector-Machines.ipynb), as examples on github repository  
 
 
+SVC = SVM classifier  
+
+* [Support Vector Machine (SVM), in sklearn](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.svm)  
+* [SVC, in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html), for Support Vector Classification, based on libsvm  
+* [Support Vector Machine](https://en.wikipedia.org/wiki/Support_vector_machine), on wikipedia  
+* [Support Vector Machine](https://de.wikipedia.org/wiki/Support_Vector_Machine), on german wikipedia  
+* [Support Vector Machine](https://id.wikipedia.org/wiki/Support-vector_machine), di wikipedia Indonesia  
+* [LIBSVM: A Library for Support Vector Machines](https://www.csie.ntu.edu.tw/~cjlin/papers/libsvm.pdf)  
+
+
+Gaussian Process and Radial Basis Function kernel:  
+
+* [RBF, in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.gaussian_process.kernels.RBF.html), as Radial basis function kernel (aka squared-exponential kernel)  
+* [Gaussian processes, in sklearn](https://scikit-learn.org/stable/modules/gaussian_process.html)  
+* [the kernel trick](https://en.wikipedia.org/wiki/Kernel_method#Mathematics:_the_kernel_trick), on wikipedia  
+* [Kernel-Methode](https://de.wikipedia.org/wiki/Kernel-Methode), on german wikipedia  
+* [Radial basis function kernel](https://en.wikipedia.org/wiki/Radial_basis_function_kernel), on wikipedia  
+
+
 ### Project: Warum schmeckt Rotwein /Weißwein gut?  
 
 
@@ -265,7 +284,7 @@ Wine Quality: Data Sets and Information
 * google drive links?  
 
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/lHwESP3-Efg/0.jpg)](https://www.youtube.com/watch?v=lHwESP3-Efg&t=0s)
+[![Red Wine Quality Analysis and Machine Learning Techniques using sklearn python libraries](https://img.youtube.com/vi/lHwESP3-Efg/0.jpg)](https://www.youtube.com/watch?v=lHwESP3-Efg&t=0s)
 
 
 check:  
@@ -273,11 +292,13 @@ check:
 * [alfatraining](https://www.alfatraining.de/gefoerderte-weiterbildung/) courses  
 * [alfatraining](https://www.alfatraining.de/) website  
 * detailed in [my private repository](https://bitbucket.org/iscab/alfatraining_2023_machine_learning/)  
-* [this notes on github](https://github.com/iscab/belajar_python/blob/main/Course2023_alfatraining_Machine_Learning/my_notes/notes.md)  
-* [this notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_machine_learning/src/master/my_notes/notes.md)  
+* [this machine learning notes on github](https://github.com/iscab/belajar_python/blob/main/Course2023_alfatraining_Machine_Learning/my_notes/notes.md)  
+* [this machine learning notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_machine_learning/src/master/my_notes/notes.md)  
+* [other deep learning notes on github](https://github.com/iscab/belajar_python/blob/main/Course2023_alfatraining_Deep_Learning/my_notes/notes.md)  
+* [other deep learning notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_deep_learning/src/master/my_notes/notes.md)  
 
 
-version: 00:00 06.02.2024
+version: 00:22 06.02.2024
 
 # End of File
 
