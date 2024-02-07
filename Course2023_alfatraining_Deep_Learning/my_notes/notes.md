@@ -1,7 +1,7 @@
 # NOTES #
 
 notes and important links for alfatraining course in deep learning, in 2023  
-(version: 00:00 06.02.2024)  
+(version: 00:22 06.02.2024)  
 
 
 Deep Learning Book: A. Geron, 2023, "Praxiseinstieg Machine Learning mit Scikit-Learn, Keras und TensorFlow"  
@@ -198,6 +198,17 @@ Cross Entropy:
 * [One-Hot Encoding for Machine Learning with TensorFlow 2.0 and Keras](https://github.com/christianversloot/machine-learning-articles/blob/main/one-hot-encoding-for-machine-learning-with-tensorflow-and-keras.md), on github  
 
 
+Calibration curve / Lernkurven, in scikit-learn (sklearn):  
+
+* [Probability calibration, in sklearn](https://scikit-learn.org/stable/modules/calibration.html)  
+
+
+Permutation feature importance, in scikit-learn (sklearn):  
+
+* [Permutation feature importance, in sklearn](https://scikit-learn.org/stable/modules/permutation_importance.html)  
+* [permutation_importance, in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.inspection.permutation_importance.html), as Permutation importance for feature evaluation  
+
+
 ### Project: EEG Data processing and classification (CANCELED)  
 
 This topic were not chosen because the data loading was tricky and also my data was credential. 
@@ -241,11 +252,14 @@ check:
 * [alfatraining](https://www.alfatraining.de/gefoerderte-weiterbildung/) courses  
 * [alfatraining](https://www.alfatraining.de/) website  
 * detailed in [my private repository](https://bitbucket.org/iscab/alfatraining_2023_deep_learning/)  
-* [this notes on github](https://github.com/iscab/belajar_python/blob/main/Course2023_alfatraining_Deep_Learning/my_notes/notes.md)  
-* [this notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_deep_learning/src/master/my_notes/notes.md)  
+* [this deep learning notes on github](https://github.com/iscab/belajar_python/blob/main/Course2023_alfatraining_Deep_Learning/my_notes/notes.md)  
+* [this deep learning notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_deep_learning/src/master/my_notes/notes.md)  
+* [other machine learning notes on github](https://github.com/iscab/belajar_python/blob/main/Course2023_alfatraining_Machine_Learning/my_notes/notes.md)  
+* [other machine learning notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_machine_learning/src/master/my_notes/notes.md)  
 
 
-version: 00:00 06.02.2024
+
+version: 00:22 06.02.2024
 
 # End of File
 
