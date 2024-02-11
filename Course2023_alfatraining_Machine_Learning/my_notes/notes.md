@@ -1,7 +1,7 @@
 # NOTES #
 
 notes and important links for alfatraining course in machine learning, in 2023  
-(version: 00:22 06.02.2024) 
+(version: 08:00 09.02.2024) 
 
 
 Machine Learning Book: Jörg Frochte, 2020, "Maschinelles Lernen — Grundlagen und Algorithmen in Python"  
@@ -253,7 +253,7 @@ SVC = SVM classifier
 * [Support Vector Machine](https://en.wikipedia.org/wiki/Support_vector_machine), on wikipedia  
 * [Support Vector Machine](https://de.wikipedia.org/wiki/Support_Vector_Machine), on german wikipedia  
 * [Support Vector Machine](https://id.wikipedia.org/wiki/Support-vector_machine), di wikipedia Indonesia  
-* [LIBSVM: A Library for Support Vector Machines](https://www.csie.ntu.edu.tw/~cjlin/papers/libsvm.pdf)  
+* [LIBSVM: A Library for Support Vector Machines](https://www.csie.ntu.edu.tw/~cjlin/papers/libsvm.pdf), in PDF  
 
 
 Gaussian Process and Radial Basis Function kernel:  
@@ -263,6 +263,41 @@ Gaussian Process and Radial Basis Function kernel:
 * [the kernel trick](https://en.wikipedia.org/wiki/Kernel_method#Mathematics:_the_kernel_trick), on wikipedia  
 * [Kernel-Methode](https://de.wikipedia.org/wiki/Kernel-Methode), on german wikipedia  
 * [Radial basis function kernel](https://en.wikipedia.org/wiki/Radial_basis_function_kernel), on wikipedia  
+
+
+Twelfth day discussion links:  
+
+* [make_blobs, in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.make_blobs.html), to generate isotropic Gaussian blobs for clustering  
+* [NumPy for MATLAB users](https://numpy.org/devdocs/user/numpy-for-matlab-users.html), containing notations for matrix and vector multiplication  
+
+
+Grid Search Cross Validation (GridSearchCV):  
+
+* [GridSearchCV, in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html)  
+* [RandomizedSearchCV, in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.RandomizedSearchCV.html)  
+* [Tuning the hyper-parameters of an estimator, with Grid Search, in sklearn](https://scikit-learn.org/stable/modules/grid_search.html#grid-search)  
+* [End-to-end Machine Learning project](https://github.com/ageron/handson-ml2/blob/master/02_end_to_end_machine_learning_project.ipynb), on github about the Geron's book on Machine Learning   
+
+
+Deep Learning Book: A. Geron, 2023, "Praxiseinstieg Machine Learning mit Scikit-Learn, Keras und TensorFlow"  
+
+* [Machine Learning Book web](https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/)  
+* [Machine Learning Book](https://homl.info/er3)  
+* [Codes from the book in github](https://github.com/ageron/handson-ml3)  
+
+
+Model evaluation, in scikit-learn (sklearn):  
+
+* [scoring parameter, in sklearn](https://scikit-learn.org/stable/modules/model_evaluation.html#scoring-parameter), for defining model evaluation rules  
+* [scoring, in sklearn](https://scikit-learn.org/stable/modules/model_evaluation.html#scoring), for defining your scoring strategy from metric functions  
+* [Classification metrics, in sklearn](https://scikit-learn.org/stable/modules/model_evaluation.html#classification-metrics)  
+
+
+Neural Network, in scikit-learn (sklearn):  
+
+* [Neural network models (supervised), in sklearn](https://scikit-learn.org/stable/modules/neural_networks_supervised.html)  
+* [MLPClassifier, in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html), as Multi-layer Perceptron classifier, by optimizing the log-loss function using LBFGS or stochastic gradient descent (SGD)  
+* [MLPRegressor, in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPRegressor.html), as Multi-layer Perceptron regressor, by optimizing the squared error using LBFGS or stochastic gradient descent (SGD)  
 
 
 ### Project: Warum schmeckt Rotwein /Weißwein gut?  
@@ -296,9 +331,11 @@ check:
 * [this machine learning notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_machine_learning/src/master/my_notes/notes.md)  
 * [other deep learning notes on github](https://github.com/iscab/belajar_python/blob/main/Course2023_alfatraining_Deep_Learning/my_notes/notes.md)  
 * [other deep learning notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_deep_learning/src/master/my_notes/notes.md)  
+* [other python notes on github](https://github.com/iscab/belajar_python/blob/main/Course2023_alfatraining_Python_Programmierung/my_notes/notes.md)  
+* [other python notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_python/src/master/my_notes/notes.md)  
 
 
-version: 00:22 06.02.2024
+version: 08:00 09.02.2024
 
 # End of File
 
