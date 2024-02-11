@@ -1,7 +1,7 @@
 # NOTES #
 
 notes and important links for alfatraining course in python programming, in 2023  
-(version: 00:22 06.02.2024) 
+(version: 00:22 08.02.2024) 
 
 
 Question: what is assignment ":=" in python?  
@@ -36,6 +36,11 @@ Question: How about singleton?
 * [The Singleton Pattern](https://python-patterns.guide/gang-of-four/singleton/)  
 * [How to define singletons](https://stackoverflow.com/questions/31875/is-there-a-simple-elegant-way-to-define-singletons)  
 * [Creating a singleton in Python](https://stackoverflow.com/questions/6760685/creating-a-singleton-in-python)  
+
+
+Python quiz, for LinkedIn:  
+
+* [Python quiz](https://www.w3schools.com/python/python_quiz.asp), on w3schools  
 
 
 ### Python Data analysis:  
@@ -82,6 +87,6 @@ check:
 * [other deep learning notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_deep_learning/src/master/my_notes/notes.md)  
 
 
-version: 00:22 06.02.2024  
+version: 00:22 08.02.2024  
 
 # End of File
