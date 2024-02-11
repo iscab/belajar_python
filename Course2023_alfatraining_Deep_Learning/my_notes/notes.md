@@ -1,7 +1,7 @@
 # NOTES #
 
 notes and important links for alfatraining course in deep learning, in 2023  
-(version: 00:22 06.02.2024)  
+(version: 08:00 09.02.2024)  
 
 
 Deep Learning Book: A. Geron, 2023, "Praxiseinstieg Machine Learning mit Scikit-Learn, Keras und TensorFlow"  
@@ -209,6 +209,52 @@ Permutation feature importance, in scikit-learn (sklearn):
 * [permutation_importance, in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.inspection.permutation_importance.html), as Permutation importance for feature evaluation  
 
 
+fourth day discussion links:  
+
+* [Image Classification on CIFAR-10](https://paperswithcode.com/sota/image-classification-on-cifar-10), for benchmarking  
+* [Gemini, from Google DeepMind](https://deepmind.google/technologies/gemini/)  
+* [Hands-on with Gemini](https://deepmind.google/technologies/gemini/#hands-on)  
+* [Andrew Ng Criticizes the Culture of Overfitting in Machine Learning](https://www.unite.ai/andrew-ng-criticizes-the-culture-of-overfitting-in-machine-learning/)  
+
+
+Handling Overfitting:  
+
+* [Layer weight regularizers, in Keras](https://keras.io/api/layers/regularizers/), for implementing L1 & L2 Regularization  
+* [tf.keras.regularizers.Regularizer](https://www.tensorflow.org/api_docs/python/tf/keras/regularizers/Regularizer), in TensorFlow documentation  
+* [Dropout layer, in Keras](https://keras.io/api/layers/regularization_layers/dropout/)  
+* [EarlyStopping, in Keras](https://keras.io/api/callbacks/early_stopping/)  
+
+```
+pip install keras-tuner  
+```
+
+
+Optimization/Optimierung Übung/Exercise: Drop Out  
+
+* [Drop Out, slides](https://github.com/iscab/belajar_python/blob/main/Course2023_alfatraining_Deep_Learning/Woche_1/Drop_out.pdf), in PDF, on github  
+* [Drop Out, slides](https://bitbucket.org/iscab/alfatraining_2023_deep_learning/src/master/Woche_1/Drop_out.pdf), in PDF, on bitbucket  
+* google docs link?  
+
+
+fifth day discussion links:  
+
+* [Never use restore_best_weights=True with EarlyStopping](https://medium.com/@doleron/never-use-restore-best-weights-true-with-earlystopping-754ba5f9b0c6)  
+* [hyperbolicfitdll, on github](https://github.com/bschulz81/hyperbolicfitdll), as an open source library that can help to autofocus telescopes  
+* [robustregression, on github](https://github.com/bschulz81/robustregression), as a c++ library with statistical machine learning algorithms for linear and non-linear robust regression  
+
+
+Python quiz, for LinkedIn:  
+
+* [Python quiz](https://www.w3schools.com/python/python_quiz.asp), on w3schools  
+
+
+Gradient Descent: Vanilla, Stochastic, and Mini Batch  
+
+* [Differences Between Gradient, Stochastic and Mini Batch Gradient Descent](https://www.baeldung.com/cs/gradient-stochastic-and-mini-batch)  
+* [Difference between Batch Gradient Descent and Stochastic Gradient Descent](https://www.geeksforgeeks.org/difference-between-batch-gradient-descent-and-stochastic-gradient-descent/)  
+* [Difference Between SGD, GD, and Mini-batch GD](https://www.tutorialspoint.com/difference-between-sgd-gd-and-mini-batch-gd)  
+
+
 ### Project: EEG Data processing and classification (CANCELED)  
 
 This topic were not chosen because the data loading was tricky and also my data was credential. 
@@ -256,10 +302,11 @@ check:
 * [this deep learning notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_deep_learning/src/master/my_notes/notes.md)  
 * [other machine learning notes on github](https://github.com/iscab/belajar_python/blob/main/Course2023_alfatraining_Machine_Learning/my_notes/notes.md)  
 * [other machine learning notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_machine_learning/src/master/my_notes/notes.md)  
+* [other python notes on github](https://github.com/iscab/belajar_python/blob/main/Course2023_alfatraining_Python_Programmierung/my_notes/notes.md)  
+* [other python notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_python/src/master/my_notes/notes.md)  
 
 
-
-version: 00:22 06.02.2024
+version: 08:00 09.02.2024
 
 # End of File
 
