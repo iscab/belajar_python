@@ -1,7 +1,7 @@
 # NOTES #
 
 notes and important links for alfatraining course in deep learning, in 2023  
-(version: 08:00 09.02.2024)  
+(version: 00:02 22.02.2024)  
 
 
 Deep Learning Book: A. Geron, 2023, "Praxiseinstieg Machine Learning mit Scikit-Learn, Keras und TensorFlow"  
@@ -21,6 +21,23 @@ First day discussion links:
 * [TensorFlow and Differential Equations](https://medium.com/@fjpantunes2/tensorflow-and-differential-equations-a-simple-example-77d88d98ea3e), on medium  
 * [Physics-informed neural networks](https://en.wikipedia.org/wiki/Physics-informed_neural_networks), on wikipedia  
 * [Universal approximation theorem](https://en.wikipedia.org/wiki/Universal_approximation_theorem), on wikipedia  
+
+
+Neural Network, from previous machine learning course:  
+
+* [Visualizing and Understanding Convolutional Networks](https://arxiv.org/abs/1311.2901), on arXiv  
+* [Your Deep Learning Journey](https://github.com/fastai/fastbook/blob/master/01_intro.ipynb), from fastai book, on github  
+* [The fastai book](https://github.com/fastai/fastbook), on github, using PyTorch  
+* [Geometric Intuition for Training Neural Networks](https://www.youtube.com/watch?v=Z_MA8CWKxFU&t=0s), on youtube (31 minutes)   
+* [Watching Neural Networks Learn](https://www.youtube.com/watch?v=TkwXa7Cvfr8&t=0s), on youtube (26 minutes)  
+* [other machine learning notes on github](https://github.com/iscab/belajar_python/blob/main/Course2023_alfatraining_Machine_Learning/my_notes/notes.md)  
+* [other machine learning notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_machine_learning/src/master/my_notes/notes.md)  
+
+
+[![Geometric Intuition for Training Neural Networks](https://img.youtube.com/vi/Z_MA8CWKxFU/0.jpg)](https://www.youtube.com/watch?v=Z_MA8CWKxFU&t=0s)
+
+
+[![Watching Neural Networks Learn](https://img.youtube.com/vi/TkwXa7Cvfr8/0.jpg)](https://www.youtube.com/watch?v=TkwXa7Cvfr8&t=0s)
 
 
 Encoding:  
@@ -255,7 +272,78 @@ Gradient Descent: Vanilla, Stochastic, and Mini Batch
 * [Difference Between SGD, GD, and Mini-batch GD](https://www.tutorialspoint.com/difference-between-sgd-gd-and-mini-batch-gd)  
 
 
-### Project: EEG Data processing and classification (CANCELED)  
+Tensorboard  
+
+* [TensorBoard: TensorFlow's visualization toolkit](https://www.tensorflow.org/tensorboard)  
+* [Get started with TensorBoard](https://www.tensorflow.org/tensorboard/get_started)  
+* ['tensorboard' is not recognized as an internal or external command,](https://stackoverflow.com/questions/47985835/tensorboard-is-not-recognized-as-an-internal-or-external-command), on stackoverflow  
+* check Tensorboard results on [http://localhost:6006](http://localhost:6006)  
+
+```
+tensorboard --logdir=./my_logs --port=6006  
+```
+
+OR
+
+```
+python -m tensorboard.main --logdir=./my_logs --port=6006  
+```
+
+
+Graphviz:  
+
+* [Graphviz, on gitlab](https://graphviz.gitlab.io/), as open source graph visualization software, for representing structural information as diagrams of abstract graphs and networks  
+* [Graphviz download](https://graphviz.gitlab.io/download/)  
+* [Graphviz website](https://graphviz.org/)  
+* [Graphviz download](https://graphviz.org/download/)  
+* [Graphviz](https://en.wikipedia.org/wiki/Graphviz), on wikipedia  
+* [Graphviz](https://de.wikipedia.org/wiki/Graphviz), on german wikipedia  
+
+
+pydot: Python interface to Graphviz's Dot  
+
+
+* [pydot](https://github.com/pydot/pydot), on github  
+* pydot is is an interface to Graphviz  
+* pydot can parse and dump into the DOT language used by GraphViz  
+* pydot is written in pure Python
+* [pydot 1.2.2](https://pypi.org/project/pydot/1.2.2/), on pypi  
+* [pydot](https://anaconda.org/anaconda/pydot), for anaconda  
+
+```
+pip install pydot==1.2.2  
+```
+
+OR
+
+```
+conda install anaconda::pydot  
+```
+
+
+sixth day discussion links:  
+
+* [AI Act: Einigung auf Regeln für künstliche Intelligenz](https://www.sueddeutsche.de/wirtschaft/ai-act-kuenstliche-intelligenz-bruessel-ki-1.6316909), on Süddeutsche Zeitung  
+
+
+Convolutional Neural Network (CNN):  
+
+* [2D convolution layer, in Keras](https://keras.io/api/layers/convolution_layers/convolution2d/)  
+* [tf.keras.layers.Conv2D](https://www.tensorflow.org/api_docs/python/tf/keras/layers/Conv2D), in TensorFlow documentation  
+* list of [Convolution layers, in Keras](https://keras.io/api/layers/convolution_layers/)  
+* list of [Pooling layers, in Keras](https://keras.io/api/layers/pooling_layers/)  
+* [MaxPooling2D layer, in Keras](https://keras.io/api/layers/pooling_layers/max_pooling2d/)  
+* [tf.keras.layers.MaxPooling2D](https://www.tensorflow.org/api_docs/python/tf/keras/layers/MaxPooling2D), in TensorFlow documentation  
+* [MaxPooling2D layer, in Keras 2.15](https://keras.io/2.15/api/layers/pooling_layers/max_pooling2d/)  
+* [GlobalMaxPooling2D layer, in Keras](https://keras.io/api/layers/pooling_layers/global_max_pooling2d/)  
+* [tf.keras.layers.GlobalMaxPooling2D](https://www.tensorflow.org/api_docs/python/tf/keras/layers/GlobalMaxPooling2D), in TensorFlow documentation  
+* list of [Reshaping layers, in Keras](https://keras.io/api/layers/reshaping_layers/)  
+* [Flatten layer](https://keras.io/api/layers/reshaping_layers/flatten/)  
+* [tf.keras.layers.Flatten](https://www.tensorflow.org/api_docs/python/tf/keras/layers/Flatten), in TensorFlow documentation  
+* to be continued ... 
+
+
+### Project: EEG Data processing and classification (CANCELLED)  
 
 This topic were not chosen because the data loading was tricky and also my data was credential. 
 
@@ -306,7 +394,7 @@ check:
 * [other python notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_python/src/master/my_notes/notes.md)  
 
 
-version: 08:00 09.02.2024
+version: 00:02 22.02.2024
 
 # End of File
 
