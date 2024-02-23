@@ -1,7 +1,7 @@
 # NOTES #
 
 notes and important links for alfatraining course in machine learning, in 2023  
-(version: 08:00 09.02.2024) 
+(version: 00:02 22.02.2024) 
 
 
 Machine Learning Book: Jörg Frochte, 2020, "Maschinelles Lernen — Grundlagen und Algorithmen in Python"  
@@ -284,6 +284,8 @@ Deep Learning Book: A. Geron, 2023, "Praxiseinstieg Machine Learning mit Scikit-
 * [Machine Learning Book web](https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/)  
 * [Machine Learning Book](https://homl.info/er3)  
 * [Codes from the book in github](https://github.com/ageron/handson-ml3)  
+* [other deep learning notes on github](https://github.com/iscab/belajar_python/blob/main/Course2023_alfatraining_Deep_Learning/my_notes/notes.md)  
+* [other deep learning notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_deep_learning/src/master/my_notes/notes.md)  
 
 
 Model evaluation, in scikit-learn (sklearn):  
@@ -298,6 +300,83 @@ Neural Network, in scikit-learn (sklearn):
 * [Neural network models (supervised), in sklearn](https://scikit-learn.org/stable/modules/neural_networks_supervised.html)  
 * [MLPClassifier, in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html), as Multi-layer Perceptron classifier, by optimizing the log-loss function using LBFGS or stochastic gradient descent (SGD)  
 * [MLPRegressor, in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPRegressor.html), as Multi-layer Perceptron regressor, by optimizing the squared error using LBFGS or stochastic gradient descent (SGD)  
+
+
+lbfgs = Limited-memory BGFS: Broyden-Fletcher-Goldfarb-Shanno algorithm  
+
+* BGFS = Broyden-Fletcher-Goldfarb-Shanno algorithm  
+* [Linear Models, in sklearn](https://scikit-learn.org/stable/modules/linear_model.html)  
+* [Broyden–Fletcher–Goldfarb–Shanno algorithm](https://en.wikipedia.org/wiki/Broyden%E2%80%93Fletcher%E2%80%93Goldfarb%E2%80%93Shanno_algorithm), on wikipedia  
+* [Broyden–Fletcher–Goldfarb–Shanno (BFGS) Verfahren](https://de.wikipedia.org/wiki/BFGS-Verfahren), on german wikipedia  
+* [Limited-memory BFGS](https://en.wikipedia.org/wiki/Limited-memory_BFGS), on wikipedia  
+
+
+Random Forest, in scikit-learn (sklearn):  
+
+* [VotingClassifier, in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.VotingClassifier.html), as Soft Voting/Majority Rule classifier for unfitted estimators  
+* [RandomForestClassifier, in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html), as a random forest classifier  
+* [RandomForestRegressor, in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html), as a random forest regressor  
+* [Random forests and other randomized tree ensembles, in sklearn](https://scikit-learn.org/stable/modules/ensemble.html#forest)  
+* [Using the VotingClassifier with GridSearchCV, in sklearn](https://scikit-learn.org/stable/modules/ensemble.html#using-the-votingclassifier-with-gridsearchcv), in order to tune the hyperparameters of the individual estimators  
+* [Ensembles, in sklearn](https://scikit-learn.org/stable/modules/ensemble.html): Gradient boosting, random forests, bagging, voting, stacking  
+
+
+Neural Network:  
+
+* [Visualizing and Understanding Convolutional Networks](https://arxiv.org/abs/1311.2901), on arXiv  
+* [Your Deep Learning Journey](https://github.com/fastai/fastbook/blob/master/01_intro.ipynb), from fastai book, on github  
+* [The fastai book](https://github.com/fastai/fastbook), on github, using PyTorch  
+* [Geometric Intuition for Training Neural Networks](https://www.youtube.com/watch?v=Z_MA8CWKxFU&t=0s), on youtube (31 minutes)   
+* [Watching Neural Networks Learn](https://www.youtube.com/watch?v=TkwXa7Cvfr8&t=0s), on youtube (26 minutes)  
+
+
+[![Geometric Intuition for Training Neural Networks](https://img.youtube.com/vi/Z_MA8CWKxFU/0.jpg)](https://www.youtube.com/watch?v=Z_MA8CWKxFU&t=0s)
+
+
+[![Watching Neural Networks Learn](https://img.youtube.com/vi/TkwXa7Cvfr8/0.jpg)](https://www.youtube.com/watch?v=TkwXa7Cvfr8&t=0s)
+
+
+compose, in scikit-learn (sklearn):  
+
+* sklearn.compose as Meta-estimators for building composite models with transformers  
+* [TransformedTargetRegressor, in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.compose.TransformedTargetRegressor.html), as Meta-estimator to regress on a transformed target  
+* list of [Composite Estimators, in sklearn](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.compose)  
+
+
+Feature Selection, in scikit-learn (sklearn):  
+
+* list of [Feature Selection algorithms, in sklearn](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.feature_selection)  
+* [feature_selection, in sklearn](https://scikit-learn.org/stable/modules/feature_selection.html), for feature selection/dimensionality reduction on sample sets, either to improve estimators’ accuracy scores or to boost their performance on very high-dimensional dataset  
+* [VarianceThreshold, in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.VarianceThreshold.html), as a Feature Selector that removes all low-variance features  
+* [RFE, in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.RFE.html), for feature ranking with recursive feature elimination (RFE), to select features by recursively considering smaller and smaller sets of features, until the least important features are pruned from current set of features, and the desired number of features to select is eventually reached  
+* [plot_rfe_digits, in sklearn](https://scikit-learn.org/stable/auto_examples/feature_selection/plot_rfe_digits.html), as a recursive feature elimination example showing the relevance of pixels in a digit classification task  
+* [plot_rfe_with_cross_validation, in sklearn](https://scikit-learn.org/stable/auto_examples/feature_selection/plot_rfe_with_cross_validation.html), as A Recursive Feature Elimination (RFE) example with automatic tuning of the number of features selected with cross-validation  
+
+
+Principal component analysis (PCA), in scikit-learn (sklearn):  
+
+* [PCA, in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html), as Linear dimensionality reduction using Singular Value Decomposition of the data to project it to a lower dimensional space. The input data is centered but not scaled for each feature before applying the SVD  
+* [KernelPCA, in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.KernelPCA.html), as Non-linear dimensionality reduction through the use of kernels  
+* list of [matrix decomposition algorithms, in sklearn](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.decomposition), including among others PCA, NMF or ICA  
+* [Decomposing signals in components (matrix factorization problems), in sklearn](https://scikit-learn.org/stable/modules/decomposition.html#decompositions)  
+
+
+Factor analysis and ICA, in scikit-learn (sklearn):  
+
+* [FactorAnalysis, in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.FactorAnalysis.html), as A simple linear generative model with Gaussian latent variables  
+* [FastICA, in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.FastICA.html), as a fast algorithm for Independent Component Analysis  
+
+
+Eigen values, eigen vectors, and rotation:  
+
+* [Eigenwerte und Eigenvektoren](https://www.mathebibel.de/eigenwerte-eigenvektoren), on Mathebibel  
+* [Eigenwerte berechnen](https://www.mathebibel.de/eigenwerte-berechnen), on Mathebibel  
+* [Rotationsverfahren (Statistik)](https://de.wikipedia.org/wiki/Rotationsverfahren_(Statistik)), on german wikipedia  
+* [Varimax rotation](https://en.wikipedia.org/wiki/Varimax_rotation), on wikipedia  
+* [Rotation methods, in factor analysis](https://en.wikipedia.org/wiki/Factor_analysis#Rotation_methods), on wikipedia  
+* [Factor analysis](https://en.wikipedia.org/wiki/Factor_analysis), on wikipedia  
+* [Faktorenanalyse](https://de.wikipedia.org/wiki/Faktorenanalyse), on german wikipedia  
+* [Analisis faktor](https://id.wikipedia.org/wiki/Analisis_faktor), di wikipedia Indonesia  
 
 
 ### Project: Warum schmeckt Rotwein /Weißwein gut?  
@@ -335,7 +414,7 @@ check:
 * [other python notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_python/src/master/my_notes/notes.md)  
 
 
-version: 08:00 09.02.2024
+version: 00:02 22.02.2024
 
 # End of File
 
