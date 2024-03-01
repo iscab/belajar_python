@@ -1,7 +1,7 @@
 # NOTES #
 
 notes and important links for alfatraining course in machine learning, in 2023  
-(version: 00:02 22.02.2024) 
+(version: 00:00 01.03.2024) 
 
 
 Machine Learning Book: Jörg Frochte, 2020, "Maschinelles Lernen — Grundlagen und Algorithmen in Python"  
@@ -197,6 +197,7 @@ Data sets in scikit-learn (sklearn):
 
 * list of [Datasets, in sklearn](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.datasets)  
 * [load_iris, in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_iris.html#sklearn.datasets.load_iris), to load and return the iris dataset, as a classic and very easy multi-class classification dataset  
+* [load_digits, in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html), to Load and return the UCI ML hand-written digits dataset (classification)  
 
 
 Decision Tree: Gini, Entropy, and Information Gain  
@@ -293,6 +294,14 @@ Model evaluation, in scikit-learn (sklearn):
 * [scoring parameter, in sklearn](https://scikit-learn.org/stable/modules/model_evaluation.html#scoring-parameter), for defining model evaluation rules  
 * [scoring, in sklearn](https://scikit-learn.org/stable/modules/model_evaluation.html#scoring), for defining your scoring strategy from metric functions  
 * [Classification metrics, in sklearn](https://scikit-learn.org/stable/modules/model_evaluation.html#classification-metrics)  
+* list of [Metrics, in sklearn](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.metrics)  
+* [Metrics and scoring, in sklearn: quantifying the quality of predictions](https://scikit-learn.org/stable/modules/model_evaluation.html)  
+
+```
+D = pdist(XRauschen, metric='euclidean')
+Z = linkage(D, myMethod, metric='euclidean')
+c = fcluster(Z,2,criterion='maxclust')  
+```
 
 
 Neural Network, in scikit-learn (sklearn):  
@@ -379,6 +388,64 @@ Eigen values, eigen vectors, and rotation:
 * [Analisis faktor](https://id.wikipedia.org/wiki/Analisis_faktor), di wikipedia Indonesia  
 
 
+Manifold, in scikit-learn (sklearn):  
+
+* [TSNE, in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html), as T-distributed Stochastic Neighbor Embedding, a tool to visualize high-dimensional data  
+* TSNE converts similarities between data points to joint probabilities and tries to minimize the Kullback-Leibler divergence between the joint probabilities of the low-dimensional embedding and the high-dimensional data  
+* list of [Manifold Learning, in sklearn](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.manifold), as implementation of data embedding techniques  
+* [Kullback–Leibler divergence](https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence), on wikipedia  
+* [Kullback-Leibler-Divergenz](https://de.wikipedia.org/wiki/Kullback-Leibler-Divergenz), on german wikipedia  
+
+
+Clustering, in scikit-learn (sklearn):  
+
+* [Clustering, in sklearn](https://scikit-learn.org/stable/modules/clustering.html)  
+* list of [unsupervised clustering algorithms, in sklearn](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.cluster)  
+
+
+K-Means Clustering:  
+
+* [KMeans, in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html)  
+* [K-means, in sklearn](https://scikit-learn.org/stable/modules/clustering.html#k-means)  
+* [Visualizing K-Means Clustering](https://www.naftaliharris.com/blog/visualizing-k-means-clustering/)  
+* [k-means clustering](https://en.wikipedia.org/wiki/K-means_clustering), on wikipedia  
+* [k-Means-Algorithmus](https://de.wikipedia.org/wiki/K-Means-Algorithmus), on german wikipedia  
+* [Pengklasteran k rata-rata](https://id.wikipedia.org/wiki/Pengklasteran_k_rata-rata), di wikipedia Indonesia  
+* [Lapidot, 2008, "Convergence problems of Mahalanobis distance-based k-means clustering", IEEE ICSEE](https://ieeexplore.ieee.org/document/8646138)  
+
+
+Density-based Spatial Clustering of Applications with Noise (DBSCAN):  
+
+* [DBSCAN, in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.DBSCAN.html)  
+* [Visualizing DBSCAN Clustering](https://www.naftaliharris.com/blog/visualizing-dbscan-clustering/)  
+* [DBSCAN](https://en.wikipedia.org/wiki/DBSCAN), on wikipedia  
+* [DBSCAN](https://de.wikipedia.org/wiki/DBSCAN), on german wikipedia  
+
+
+Hierarchical clustering:  
+
+* [AgglomerativeClustering, in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.AgglomerativeClustering.html), to recursively merge pair of clusters of sample data; by using linkage distance  
+* [Plot Hierarchical Clustering Dendrogram, with sklearn and scipy](https://scikit-learn.org/stable/auto_examples/cluster/plot_agglomerative_dendrogram.html)  
+* [Hierarchical clustering: structured vs unstructured ward](https://scikit-learn.org/stable/auto_examples/cluster/plot_ward_structured_vs_unstructured.html)  
+* [Hierarchical clustering, in sklearn](https://scikit-learn.org/stable/modules/clustering.html#hierarchical-clustering)  
+* [Hierarchical clustering](https://en.wikipedia.org/wiki/Hierarchical_clustering), on wikipedia  
+* [Hierarchische Clusteranalyse](https://de.wikipedia.org/wiki/Hierarchische_Clusteranalyse), on german wikipedia  
+
+
+Kneed:  
+
+* [kneed, on pypi](https://pypi.org/project/kneed/), for Knee-point detection in Python 
+* to implement the kneedle algorithm, to return the knee point of the function.  
+* The knee point is the point of maximum curvature  
+* [Finding a "Kneedle" in a Haystack: Detecting Knee Points in System Behavior, as paper in PDF](https://raghavan.usc.edu//papers/kneedle-simplex11.pdf)  
+* [kneed documentation](https://kneed.readthedocs.io/en/stable/)  
+
+
+Jupyter Notebook:  
+
+* [How to Use Jupyter Notebook](https://www.dataquest.io/blog/jupyter-notebook-tutorial/)  
+
+
 ### Project: Warum schmeckt Rotwein /Weißwein gut?  
 
 
@@ -412,9 +479,10 @@ check:
 * [other deep learning notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_deep_learning/src/master/my_notes/notes.md)  
 * [other python notes on github](https://github.com/iscab/belajar_python/blob/main/Course2023_alfatraining_Python_Programmierung/my_notes/notes.md)  
 * [other python notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_python/src/master/my_notes/notes.md)  
+* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)  
 
 
-version: 00:02 22.02.2024
+version: 00:00 01.03.2024
 
 # End of File
 
