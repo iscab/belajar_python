@@ -1,7 +1,7 @@
 # NOTES #
 
 notes and important links for alfatraining course in deep learning, in 2023  
-(version: 00:02 22.02.2024)  
+(version: 00:00 01.03.2024)  
 
 
 Deep Learning Book: A. Geron, 2023, "Praxiseinstieg Machine Learning mit Scikit-Learn, Keras und TensorFlow"  
@@ -81,7 +81,7 @@ PyTorch:
 OpenCV-Python
 
 * [OpenCV-Python Tutorials](https://docs.opencv.org/3.4/d6/d00/tutorial_py_root.html)  
-* [opencv-python on pypi](https://pypi.org/project/opencv-python/) as wrapper package for OpenCV python bindings  
+* [opencv-python, on pypi](https://pypi.org/project/opencv-python/), as wrapper package for OpenCV python bindings  
 
 
 OpenNN:  open-source neural networks library for machine learning with C++  
@@ -307,7 +307,7 @@ pydot: Python interface to Graphviz's Dot
 * pydot is is an interface to Graphviz  
 * pydot can parse and dump into the DOT language used by GraphViz  
 * pydot is written in pure Python
-* [pydot 1.2.2](https://pypi.org/project/pydot/1.2.2/), on pypi  
+* [pydot 1.2.2, on pypi](https://pypi.org/project/pydot/1.2.2/)  
 * [pydot](https://anaconda.org/anaconda/pydot), for anaconda  
 
 ```
@@ -340,7 +340,66 @@ Convolutional Neural Network (CNN):
 * list of [Reshaping layers, in Keras](https://keras.io/api/layers/reshaping_layers/)  
 * [Flatten layer](https://keras.io/api/layers/reshaping_layers/flatten/)  
 * [tf.keras.layers.Flatten](https://www.tensorflow.org/api_docs/python/tf/keras/layers/Flatten), in TensorFlow documentation  
-* to be continued ... 
+* [Keras Applications](https://keras.io/api/applications/), as deep learning models that are made available alongside pre-trained weights, for prediction, feature extraction, and fine-tuning  
+* [2D Visualization of Convolutional Neural Network](https://adamharley.com/nn_vis/cnn/2d.html), with examples of hand-written digits recognition  
+* [load_digits, in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html), to Load and return the UCI ML hand-written digits dataset (classification)  
+* [Understanding Convolutional Neural Network (CNN)](https://learnopencv.com/understanding-convolutional-neural-networks-cnn/): A Complete Guide, with VGG-16 as an example  
+
+
+CNN Task: LFW datasets (Labeled Faces in the Wild)  
+
+* [Labeled Faces in the Wild (LFW)](https://datagen.tech/guides/image-datasets/lfw-dataset/), as an image dataset containing face photographs, collected especially for studying the problem of unconstrained face recognition  
+
+
+seventh day discussion links:  
+
+* [Understanding Padding in Machine Learning](https://deepai.org/machine-learning-glossary-and-terms/padding)  
+* [Deep Neural Networks: Padding](https://www.baeldung.com/cs/deep-neural-networks-padding)  
+* [Image Classification on ImageNet](https://paperswithcode.com/sota/image-classification-on-imagenet), for benchmarking  
+
+
+CNN Übung/Exercise: GoogleNet  
+
+* inception layer  
+* google docs link?  
+* [GoogLeNet](https://paperswithcode.com/method/googlenet)  
+* [Going Deeper with Convolutions](https://arxiv.org/abs/1409.4842v1), on arXiv  
+* [Going Deeper with Convolutions, in PDF](https://arxiv.org/pdf/1409.4842v1.pdf), on arXiv  
+* [GoogleNet implementation, in PyTorch](https://github.com/pytorch/vision/blob/6db1569c89094cf23f3bc41f79275c45e9fcb3f3/torchvision/models/googlenet.py#L62), on github  
+* [A Simple Guide to the Versions of the Inception Network](https://towardsdatascience.com/a-simple-guide-to-the-versions-of-the-inception-network-7fc52b863202)  
+
+
+Local Response Norm:  
+
+* list of [Normalization layers, in Keras](https://keras.io/api/layers/normalization_layers/)  
+* [tf.nn.local_response_normalization](https://www.tensorflow.org/api_docs/python/tf/nn/local_response_normalization), in TensorFlow documentation  
+* [What is local response normalization?](https://www.quora.com/What-is-local-response-normalization/answer/Hu-Yixuan)  
+
+
+AlexNet:  
+
+* [AlexNet](https://en.wikipedia.org/wiki/AlexNet), on wikipedia  
+* AlexNet is the name of a convolutional neural network (CNN) architecture, designed by Alex Krizhevsky in collaboration with Ilya Sutskever and Geoffrey Hinton, who was Krizhevsky's Ph.D. advisor at the University of Toronto.  
+* [AlexNet](https://paperswithcode.com/method/alexnet) is a classic convolutional neural network architecture, consisting of convolutions, max pooling and dense layers as the basic building blocks.  
+* [ImageNet Classification with Deep Convolutional Neural Networks](https://proceedings.neurips.cc/paper_files/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html)  
+* [ImageNet Classification with Deep Convolutional Neural Networks, in PDF](https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf)  
+* [AlexNet, in PyTorch](https://github.com/dansuh17/alexnet-pytorch/blob/d0c1b1c52296ffcbecfbf5b17e1d1685b4ca6744/model.py#L40), on github  
+* [AlexNet - CNN Explained and Implemented](https://www.youtube.com/watch?v=8GheVe2UmUM&t=0s), on youtube (13 minutes)  
+* [Sensory illusions and lateral inhibition](https://braininbrief.tumblr.com/post/7975037341/sensory-illusions-and-lateral-inhibition), from Brain Never Sleeps  
+
+
+[![AlexNet - CNN Explained and Implemented](https://img.youtube.com/vi/8GheVe2UmUM/0.jpg)](https://www.youtube.com/watch?v=8GheVe2UmUM&t=0s)
+
+
+ResNet: Residual Network  
+
+* [ResNet and ResNetV2, in Keras](https://keras.io/api/applications/resnet/)  
+* [Residual neural network](https://en.wikipedia.org/wiki/Residual_neural_network), on wikipedia  
+* [Residual Network](https://paperswithcode.com/method/resnet)  
+* [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385v1), on arXiv  
+* [Deep Residual Learning for Image Recognition, in PDF](https://arxiv.org/pdf/1512.03385v1.pdf), on arXiv  
+* with Batch Normalization  
+* [a residual network using Keras' Sequential() API training on CIFAR10](https://gist.github.com/FirefoxMetzger/6b6ccf4f7c344459507e73bbd13ec541), on github  
 
 
 ### Project: EEG Data processing and classification (CANCELLED)  
@@ -392,9 +451,10 @@ check:
 * [other machine learning notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_machine_learning/src/master/my_notes/notes.md)  
 * [other python notes on github](https://github.com/iscab/belajar_python/blob/main/Course2023_alfatraining_Python_Programmierung/my_notes/notes.md)  
 * [other python notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_python/src/master/my_notes/notes.md)  
+* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)  
 
 
-version: 00:02 22.02.2024
+version: 00:00 01.03.2024
 
 # End of File
 
