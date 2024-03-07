@@ -1,7 +1,7 @@
 # NOTES #
 
 notes and important links for alfatraining course in deep learning, in 2023  
-(version: 00:00 01.03.2024)  
+(version: 00:10 06.03.2024)  
 
 
 Deep Learning Book: A. Geron, 2023, "Praxiseinstieg Machine Learning mit Scikit-Learn, Keras und TensorFlow"  
@@ -100,7 +100,7 @@ Apache Mahout:  distributed linear algebra framework and mathematically expressi
 
 Google JAX:  machine learning framework for transforming numerical functions  
 
-* [Google JAX on github](https://github.com/google/jax)  
+* [JAX: Autograd and XLA](https://github.com/google/jax), on github  
 * [Google JAX](https://en.wikipedia.org/wiki/Google_JAX), on wikipedia  
 
 
@@ -402,6 +402,59 @@ ResNet: Residual Network
 * [a residual network using Keras' Sequential() API training on CIFAR10](https://gist.github.com/FirefoxMetzger/6b6ccf4f7c344459507e73bbd13ec541), on github  
 
 
+Xception: Deep Learning with Depthwise Separable Convolutions  
+
+* Depthwise Separable Convolutional Layer  
+* [Xception, in Keras](https://keras.io/api/applications/xception/)  
+* [tf.keras.applications.xception](https://www.tensorflow.org/api_docs/python/tf/keras/applications/xception), in TensorFlow documentation  
+* [Xception](https://paperswithcode.com/method/xception)  
+* [Xception: Deep Learning with Depthwise Separable Convolutions](https://arxiv.org/abs/1610.02357), on arXiv  
+* [Xception: Deep Learning with Depthwise Separable Convolutions, in PDF](https://arxiv.org/pdf/1610.02357.pdf), on arXiv  
+* [Xception, using Keras](https://github.com/keras-team/keras-applications/blob/bc89834ed36935ab4a4994446e34ff81c0d8e1b7/keras_applications/xception.py#L40), on github  
+* [Xception: Deep Learning with Depthwise Separable Convolutions](https://openaccess.thecvf.com/content_cvpr_2017/html/Chollet_Xception_Deep_Learning_CVPR_2017_paper.html)  
+* [Xception: Deep Learning with Depthwise Separable Convolutions, in PDF](https://openaccess.thecvf.com/content_cvpr_2017/papers/Chollet_Xception_Deep_Learning_CVPR_2017_paper.pdf)  
+
+
+Depthwise Separable Convolution:  
+
+* [Depthwise Separable Convolution](https://paperswithcode.com/method/depthwise-separable-convolution)  
+* [Xception, using TensorFlow](https://github.com/kwotsin/TensorFlow-Xception/blob/c42ad8cab40733f9150711be3537243278612b22/xception.py#L67), on github  
+
+
+Depthwise Convolution:  
+
+* [Depthwise Convolution is All You Need for Learning Multiple Visual Domains](https://paperswithcode.com/paper/depthwise-convolution-is-all-you-need-for)  
+* [Depthwise Convolution is All You Need for Learning Multiple Visual Domains](https://arxiv.org/abs/1902.00927v2), on arXiv  
+* [Depthwise Convolution is All You Need for Learning Multiple Visual Domains, in PDF](https://arxiv.org/pdf/1902.00927v2.pdf), on arXiv  
+* [Depthwise_Convolution_for_Multiple_Domain_Learning](https://github.com/yunhuiguo/Depthwise_Convolution_for_Multiple_Domain_Learning), on github  
+
+
+VGG:  
+
+* [VGG16 and VGG19, in Keras](https://keras.io/api/applications/vgg/)  
+* [tf.keras.applications.vgg16.preprocess_input](https://www.tensorflow.org/api_docs/python/tf/keras/applications/vgg16/preprocess_input), in TensorFlow documentation  
+* [How to calculate the number of parameters of convolutional neural networks?](https://stackoverflow.com/questions/28232235/how-to-calculate-the-number-of-parameters-of-convolutional-neural-networks)  
+* [VGG](https://raw.githubusercontent.com/blurred-machine/Data-Science/master/Deep%20Learning%20SOTA/img/config3.jpg), on github  
+
+
+MobileNet:  
+
+* [MobileNet, MobileNetV2, and MobileNetV3, in Keras](https://keras.io/api/applications/mobilenet/)  
+* [MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications](https://arxiv.org/abs/1704.04861), on arXiv  
+* [MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications, in PDF](https://arxiv.org/pdf/1704.04861.pdf), on arXiv  
+
+
+Vision-Transformer (ViT)  
+
+* [Vision transformer](https://en.wikipedia.org/wiki/Vision_transformer), on wikipedia  
+* [Vision Transformer](https://paperswithcode.com/method/vision-transformer)  
+* The Vision Transformer, or ViT, is a model for image classification that employs a Transformer-like architecture over patches of the image.  
+* An image is split into fixed-size patches, each of them are then linearly embedded, position embeddings are added, and the resulting sequence of vectors is fed to a standard Transformer encoder.  
+* [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929), on arXiv  
+* [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale, in PDF](https://arxiv.org/pdf/2010.11929.pdf), on arXiv  
+* [Vision Transformer and MLP-Mixer Architectures](https://github.com/google-research/vision_transformer), on github  
+
+
 ### Project: EEG Data processing and classification (CANCELLED)  
 
 This topic were not chosen because the data loading was tricky and also my data was credential. 
@@ -445,16 +498,16 @@ check:
 * [alfatraining](https://www.alfatraining.de/gefoerderte-weiterbildung/) courses  
 * [alfatraining](https://www.alfatraining.de/) website  
 * detailed in [my private repository](https://bitbucket.org/iscab/alfatraining_2023_deep_learning/)  
-* [this deep learning notes on github](https://github.com/iscab/belajar_python/blob/main/Course2023_alfatraining_Deep_Learning/my_notes/notes.md)  
-* [this deep learning notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_deep_learning/src/master/my_notes/notes.md)  
-* [other machine learning notes on github](https://github.com/iscab/belajar_python/blob/main/Course2023_alfatraining_Machine_Learning/my_notes/notes.md)  
-* [other machine learning notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_machine_learning/src/master/my_notes/notes.md)  
-* [other python notes on github](https://github.com/iscab/belajar_python/blob/main/Course2023_alfatraining_Python_Programmierung/my_notes/notes.md)  
-* [other python notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_python/src/master/my_notes/notes.md)  
+* [this deep learning notes on github](https://github.com/iscab/belajar_python/blob/main/Course2023_alfatraining_Deep_Learning/my_notes/notes.md){:target="_blank"}  
+* [this deep learning notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_deep_learning/src/master/my_notes/notes.md){:target="_blank"}  
+* [other machine learning notes on github](https://github.com/iscab/belajar_python/blob/main/Course2023_alfatraining_Machine_Learning/my_notes/notes.md){:target="_blank"}  
+* [other machine learning notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_machine_learning/src/master/my_notes/notes.md){:target="_blank"}  
+* [other python notes on github](https://github.com/iscab/belajar_python/blob/main/Course2023_alfatraining_Python_Programmierung/my_notes/notes.md){:target="_blank"}  
+* [other python notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_python/src/master/my_notes/notes.md){:target="_blank"}  
 * [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)  
 
 
-version: 00:00 01.03.2024
+version: 00:10 06.03.2024
 
 # End of File
 
