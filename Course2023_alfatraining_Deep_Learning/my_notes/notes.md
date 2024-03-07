@@ -1,7 +1,8 @@
+<base target="_blank">
 # NOTES #
 
 notes and important links for alfatraining course in deep learning, in 2023  
-(version: 00:10 06.03.2024)  
+(version: 00:01 07.03.2024)  
 
 
 Deep Learning Book: A. Geron, 2023, "Praxiseinstieg Machine Learning mit Scikit-Learn, Keras und TensorFlow"  
@@ -455,6 +456,13 @@ Vision-Transformer (ViT)
 * [Vision Transformer and MLP-Mixer Architectures](https://github.com/google-research/vision_transformer), on github  
 
 
+Batch Normalization  
+
+* [BatchNormalization layer, in Keras](https://keras.io/api/layers/normalization_layers/batch_normalization/)  
+* [Batch normalization](https://en.wikipedia.org/wiki/Batch_normalization), on wikipedia  
+* to be continued  
+
+
 ### Project: EEG Data processing and classification (CANCELLED)  
 
 This topic were not chosen because the data loading was tricky and also my data was credential. 
@@ -498,16 +506,16 @@ check:
 * [alfatraining](https://www.alfatraining.de/gefoerderte-weiterbildung/) courses  
 * [alfatraining](https://www.alfatraining.de/) website  
 * detailed in [my private repository](https://bitbucket.org/iscab/alfatraining_2023_deep_learning/)  
-* [this deep learning notes on github](https://github.com/iscab/belajar_python/blob/main/Course2023_alfatraining_Deep_Learning/my_notes/notes.md){:target="_blank"}  
-* [this deep learning notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_deep_learning/src/master/my_notes/notes.md){:target="_blank"}  
-* [other machine learning notes on github](https://github.com/iscab/belajar_python/blob/main/Course2023_alfatraining_Machine_Learning/my_notes/notes.md){:target="_blank"}  
-* [other machine learning notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_machine_learning/src/master/my_notes/notes.md){:target="_blank"}  
-* [other python notes on github](https://github.com/iscab/belajar_python/blob/main/Course2023_alfatraining_Python_Programmierung/my_notes/notes.md){:target="_blank"}  
-* [other python notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_python/src/master/my_notes/notes.md){:target="_blank"}  
+* [this deep learning notes on github](https://github.com/iscab/belajar_python/blob/main/Course2023_alfatraining_Deep_Learning/my_notes/notes.md)  
+* [this deep learning notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_deep_learning/src/master/my_notes/notes.md)  
+* [other machine learning notes on github](https://github.com/iscab/belajar_python/blob/main/Course2023_alfatraining_Machine_Learning/my_notes/notes.md)  
+* [other machine learning notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_machine_learning/src/master/my_notes/notes.md)  
+* [other python notes on github](https://github.com/iscab/belajar_python/blob/main/Course2023_alfatraining_Python_Programmierung/my_notes/notes.md)  
+* [other python notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_python/src/master/my_notes/notes.md)  
 * [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)  
 
 
-version: 00:10 06.03.2024
+version: 00:01 07.03.2024
 
 # End of File
 
