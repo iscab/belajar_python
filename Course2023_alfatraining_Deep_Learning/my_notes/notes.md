@@ -1,8 +1,9 @@
-<base target="_blank">
 # NOTES #
 
 notes and important links for alfatraining course in deep learning, in 2023  
-(version: 00:01 07.03.2024)  
+(version: 02:12 07.03.2024)  
+
+<base target="_blank">
 
 
 Deep Learning Book: A. Geron, 2023, "Praxiseinstieg Machine Learning mit Scikit-Learn, Keras und TensorFlow"  
@@ -460,7 +461,15 @@ Batch Normalization
 
 * [BatchNormalization layer, in Keras](https://keras.io/api/layers/normalization_layers/batch_normalization/)  
 * [Batch normalization](https://en.wikipedia.org/wiki/Batch_normalization), on wikipedia  
-* to be continued  
+* [What is Batch Normalization?](https://databasecamp.de/en/ml/batch-normalization-en)  
+* [Batch Norm, Explained Visually: How it works, and why neural networks need it](https://towardsdatascience.com/batch-norm-explained-visually-how-it-works-and-why-neural-networks-need-it-b18919692739)    
+
+
+eighth day discussion links
+
+* [Models, in Kaggle](https://www.kaggle.com/models?tfhub-redirect=true), to search and discover hundreds of trained, ready-to-deploy machine learning models in one place.   
+* [Compare Image Recognition Software](https://www.g2.com/categories/image-recognition)  
++ to be continued  
 
 
 ### Project: EEG Data processing and classification (CANCELLED)  
@@ -515,7 +524,7 @@ check:
 * [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)  
 
 
-version: 00:01 07.03.2024
+version: 02:12 07.03.2024
 
 # End of File
 
