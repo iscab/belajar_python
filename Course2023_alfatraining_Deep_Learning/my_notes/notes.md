@@ -1,9 +1,7 @@
 # NOTES #
 
 notes and important links for alfatraining course in deep learning, in 2023  
-(version: 02:12 07.03.2024)  
-
-<base target="_blank">
+(version: 02:12 28.03.2024)  
 
 
 Deep Learning Book: A. Geron, 2023, "Praxiseinstieg Machine Learning mit Scikit-Learn, Keras und TensorFlow"  
@@ -274,7 +272,7 @@ Gradient Descent: Vanilla, Stochastic, and Mini Batch
 * [Difference Between SGD, GD, and Mini-batch GD](https://www.tutorialspoint.com/difference-between-sgd-gd-and-mini-batch-gd)  
 
 
-Tensorboard  
+Tensorboard:  
 
 * [TensorBoard: TensorFlow's visualization toolkit](https://www.tensorflow.org/tensorboard)  
 * [Get started with TensorBoard](https://www.tensorflow.org/tensorboard/get_started)  
@@ -446,7 +444,7 @@ MobileNet:
 * [MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications, in PDF](https://arxiv.org/pdf/1704.04861.pdf), on arXiv  
 
 
-Vision-Transformer (ViT)  
+Vision-Transformer (ViT):  
 
 * [Vision transformer](https://en.wikipedia.org/wiki/Vision_transformer), on wikipedia  
 * [Vision Transformer](https://paperswithcode.com/method/vision-transformer)  
@@ -457,7 +455,7 @@ Vision-Transformer (ViT)
 * [Vision Transformer and MLP-Mixer Architectures](https://github.com/google-research/vision_transformer), on github  
 
 
-Batch Normalization  
+Batch Normalization:  
 
 * [BatchNormalization layer, in Keras](https://keras.io/api/layers/normalization_layers/batch_normalization/)  
 * [Batch normalization](https://en.wikipedia.org/wiki/Batch_normalization), on wikipedia  
@@ -465,11 +463,169 @@ Batch Normalization
 * [Batch Norm, Explained Visually: How it works, and why neural networks need it](https://towardsdatascience.com/batch-norm-explained-visually-how-it-works-and-why-neural-networks-need-it-b18919692739)    
 
 
-eighth day discussion links
+eighth day discussion links:
 
 * [Models, in Kaggle](https://www.kaggle.com/models?tfhub-redirect=true), to search and discover hundreds of trained, ready-to-deploy machine learning models in one place.   
 * [Compare Image Recognition Software](https://www.g2.com/categories/image-recognition)  
-+ to be continued  
+* [Demo, on Google Cloud Vision API](https://cloud.google.com/vision/#demo)  
+* [Computer vision: Extract insights from images, documents, and videos](https://cloud.google.com/vision/?hl=en&utm_source=google&utm_medium=cpc&utm_campaign=emea-de-all-de-dr-bkws-all-all-trial-e-gcp-1011340&utm_content=text-ad-none-any-DEV_c-CRE_548685040516-ADGP_Hybrid+|+BKWS+-+EXA+|+Txt+~+AI+%26+ML+~+Vision+AI%23v4-KWID_43700053282385069-aud-606988878374:kwd-15026601681-userloc_9041961&utm_term=KW_google%20vision-NET_g-PLAC_&&gad_source=1&gclid=EAIaIQobChMIyten5Y2MgwMVp5KDBx0wyAUvEAAYASAAEgJuu_D_BwE&gclsrc=aw.ds), on Google Cloud Vision API  
+* [Vision AI, on Google Cloud Vision API](https://cloud.google.com/vision/?hl=de&utm_source=google&utm_medium=cpc&utm_campaign=emea-de-all-de-dr-bkws-all-all-trial-e-gcp-1011340&utm_content=text-ad-none-any-DEV_c-CRE_548685040516-ADGP_Hybrid+%7C+BKWS+-+EXA+%7C+Txt+~+AI+%26+ML+~+Vision+AI%23v4-KWID_43700053282385069-aud-606988878374:kwd-15026601681-userloc_9041961&utm_term=KW_google%20vision-NET_g-PLAC_&&gad_source=1&gclid=EAIaIQobChMIyten5Y2MgwMVp5KDBx0wyAUvEAAYASAAEgJuu_D_BwE&gclsrc=aw.ds)  
+* [Hugging Face website](https://huggingface.co/)  
+* [Models, in Hugging Face](https://huggingface.co/models)  
+* [Hugging Face](https://en.wikipedia.org/wiki/Hugging_Face), on wikipedia  
+* [Hugging Face](https://de.wikipedia.org/wiki/Hugging_Face), on german wikipedia  
+* [Hugging Face](https://id.wikipedia.org/wiki/Hugging_Face), di wikipedia Indonesia  
+* [Table Transformer, on Hugging Face](https://huggingface.co/microsoft/table-transformer-detection), for Table Detection/Extraction from unstructured documents  
+* [DETR, DEtection TRansformer, on Hugging Face](https://huggingface.co/facebook/detr-resnet-50), as (End-to-End Object Detection) model with ResNet-50 backbone  
+
+
+Transfer Learning:  
+
+* [Transfer learning & fine-tuning, in Keras](https://keras.io/guides/transfer_learning/)  
+* [Transfer learning and fine-tuning](https://www.tensorflow.org/tutorials/images/transfer_learning), in TensorFlow documentation  
+* list of [Keras Applications](https://keras.io/api/applications/)  
+
+
+Image Data Loading & Dataset object:  
+
+* [Image data loading, in Keras](https://keras.io/api/data_loading/image/)  
+* [tf.data.Dataset](https://www.tensorflow.org/api_docs/python/tf/data/Dataset), in TensorFlow documentation, to represent a potentially large set of elements  
+* [tf.keras.utils.image_dataset_from_directory](https://www.tensorflow.org/api_docs/python/tf/keras/utils/image_dataset_from_directory), in TensorFlow documentation, to generate a tf.data.Dataset from image files in a directory  
+* [tf.keras.utils.load_img](https://www.tensorflow.org/api_docs/python/tf/keras/utils/load_img), in TensorFlow documentation, to load an image into PIL format  
+
+
+ninth day discussion links:  
+
+* [KI im Sport - Risiko oder Chance?](https://www.zdf.de/sport/sportstudio-reportage/kuenstliche-intelligent-sport-risiko-analyse-chance-petkovic-doku-100.html), on ZDF (48 minutes)  
+
+
+Objekterkennung / Object recognition:  
+
+* Lokalisierung, semantische Segmentierung, und PunktWolken  
+* localization, semantic segmentation, and point clouds  
+* [YoloV3 Implemented in TensorFlow 2.0, for object localization](https://github.com/zzh8829/yolov3-tf2), on github  
+* [Image segmentation with a U-Net-like architecture, in Keras](https://keras.io/examples/vision/oxford_pets_image_segmentation/)  
+* [Point cloud classification with PointNet, in Keras](https://keras.io/examples/vision/pointnet/)  
+* [Make Sense AI](https://www.makesense.ai/), for object labelling  
+* [Make Sense AI developer](https://github.com/SkalskiP), on github  
+* [COCO: Common Objects in Context](https://cocodataset.org/)  
+* COCO is a large-scale object detection, segmentation, and captioning dataset.  
+* [COCO Dataset Overview](https://cocodataset.org/#overview)  
+* [COCO 2020 Keypoint Detection Task](https://cocodataset.org/#keypoints-2020)  
+* [COCO 2020 Panoptic Segmentation Task](https://cocodataset.org/#panoptic-2020)  
+* [COCO Dataset](https://github.com/cocodataset/cocodataset.github.io), on github  
+* [Roboflow](https://roboflow.com/) is using Microsoft COCO  
+* [Segment Anything Model (SAM)](https://segment-anything.com/)  
+
+
+YOLOv3: You Only Look Once  
+
+* [YOLOv3: Real-Time Object Detection Algorithm (Guide)](https://viso.ai/deep-learning/yolov3-overview/)  
+* [YOLO: Real-Time Object Detection](https://pjreddie.com/darknet/yolo/)  
+* [YOLOv3](https://paperswithcode.com/method/yolov3)  
+* YOLOv3 is a real-time, single-stage object detection model that builds on YOLOv2 with several improvements.  
+* Improvements include the use of a new backbone network, Darknet-53 that utilises residual connections", as well as some improvements to the bounding box prediction step, and use of three different scales from which to extract features  
+* [YOLOv3: An Incremental Improvement](https://arxiv.org/abs/1804.02767), on arXiv  
+* [YOLOv3: An Incremental Improvement, in PDF](https://arxiv.org/pdf/1804.02767.pdf), on arXiv  
+* [Darknet](https://github.com/pjreddie/darknet), on github  
+* Darknet is an open source neural network framework written in C and CUDA  
+* [YOLOv3](https://www.youtube.com/watch?v=MPU2HistivI), on youtube (4 minutes)  
+* [YOLOv2](https://towardsdatascience.com/yolo-you-only-look-once-real-time-object-detection-explained-492dc9230006), You only look once, real time object detection explained  
+* [YOLO: Algorithm for Object Detection Explained](https://www.v7labs.com/blog/yolo-object-detection)  
+* [C4W3L03 Object Detection](https://www.youtube.com/watch?v=5e5pjeojznk), on youtube (6 minutes)  
+
+
+[![YOLOv3](https://img.youtube.com/vi/MPU2HistivI/0.jpg)](https://www.youtube.com/watch?v=MPU2HistivI&t=0s)  
+
+
+[![C4W3L03 Object Detection](https://img.youtube.com/vi/5e5pjeojznk/0.jpg)](https://www.youtube.com/watch?v=5e5pjeojznk&t=0s)  
+
+
+U-Net:  
+
+* [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/), from Uni Freiburg  
+* [U-Net](https://en.wikipedia.org/wiki/U-Net), on wikipedia  
+* [U-Net](https://paperswithcode.com/method/u-net)  
+* U-Net is an architecture for semantic segmentation. It consists of a contracting path and an expansive path.  
+* The contracting path follows the typical architecture of a convolutional network, with downsampling steps, each of which double the number of feature channels  
+* Every step in the expansive path consists of an upsampling of the feature map, followed by a convolution (“up-convolution”) that halves the number of feature channels, a concatenation with the correspondingly cropped feature map from the contracting path.  
+* The cropping is necessary due to the loss of border pixels in every convolution.  
+* [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/abs/1505.04597), on arXiv  
+* [U-Net: Convolutional Networks for Biomedical Image Segmentation, in PDF](https://arxiv.org/pdf/1505.04597.pdf), on arXiv  
+* [Pytorch-UNet Model, on github](https://github.com/milesial/Pytorch-UNet/blob/67bf11b4db4c5f2891bd7e8e7f58bcde8ee2d2db/unet/unet_model.py#L8)  
+
+
+Transpose layer:  
+
+* [Conv2DTranspose layer, in Keras](https://keras.io/api/layers/convolution_layers/convolution2d_transpose/), for 2D transposed convolution layer  
+* [tf.keras.layers.Conv2DTranspose](https://www.tensorflow.org/api_docs/python/tf/keras/layers/Conv2DTranspose), in TensorFlow documentation, as Transposed convolution layer (sometimes called Deconvolution).  
+* The need for transposed convolutions generally arise from the desire to use a transformation going in the opposite direction of a normal convolution, i.e., from something that has the shape of the output of some convolution to something that has the shape of its input while maintaining a connectivity pattern that is compatible with said convolution.  
+* [UpSampling2D layer, in Keras](https://keras.io/api/layers/reshaping_layers/up_sampling2d/), as Upsampling layer for 2D inputs    
+* [tf.keras.layers.UpSampling2D](https://www.tensorflow.org/api_docs/python/tf/keras/layers/UpSampling2D), in TensorFlow documentation  
+* [How to use the UpSampling2D and Conv2DTranspose Layers in Keras](https://machinelearningmastery.com/upsampling-and-transpose-convolution-layers-for-generative-adversarial-networks/)  
+
+
+Bilinear:  
+
+* [UpSampling2D layer, in Keras](https://keras.io/api/layers/reshaping_layers/up_sampling2d/)  
+* [tfr.keras.layers.Bilinear](https://www.tensorflow.org/ranking/api_docs/python/tfr/keras/layers/Bilinear), in TensorFlow documentation  
+* [Bilinear interpolation](https://en.wikipedia.org/wiki/Bilinear_interpolation), on wikipedia  
+* [Bilineare Filterung](https://de.wikipedia.org/wiki/Bilineare_Filterung), on german wikipedia  
+* [Bilinear form](https://en.wikipedia.org/wiki/Bilinear_form), on wikipedia  
+* [Bilinearform](https://de.wikipedia.org/wiki/Bilinearform), on german wikipedia  
+
+
+Bicubic:  
+
+* [Bicubic interpolation](https://en.wikipedia.org/wiki/Bicubic_interpolation), on wikipedia  
+* [Mitchell-Netravali-Filter / BC-Splines / bikubische Filter](https://de.wikipedia.org/wiki/Mitchell-Netravali-Filter), on german wikipedia  
+* [Mitchell–Netravali filters / BC-splines / bicubic filters](https://en.wikipedia.org/wiki/Mitchell%E2%80%93Netravali_filters), on wikipedia  
+
+
+Convolution in 3D:  
+
+* 3D convolution layer (e.g. spatial convolution over volumes)  
+* [Conv3D layer, in Keras](https://keras.io/api/layers/convolution_layers/convolution3d/), for 3D convolution layer  
+* [tf.keras.layers.Conv3D](https://www.tensorflow.org/api_docs/python/tf/keras/layers/Conv3D), in TensorFlow documentation  
+* [Convolution layers, in Keras](https://keras.io/api/layers/convolution_layers/)  
+* [Tutorial: Python Tensorflow – tf.keras.layers.Conv3D() Function](https://www.geeksforgeeks.org/python-tensorflow-tf-keras-layers-conv3d-function/)  
+* [tf.keras.layers.Conv3DTranspose](https://www.tensorflow.org/api_docs/python/tf/keras/layers/Conv3DTranspose), in TensorFlow documentation, for Transposed convolution layer (sometimes called Deconvolution)  
+
+
+tenth day discussion links:  
+
+* [Viel KI mit bisschen Smartphone](https://www.zeit.de/digital/mobil/2023-10/google-pixel-8-smartphone-kuenstliche-intelligenz-fotografie-test/komplettansicht)  
+* [AI Image Generator, from text prompt](https://deepai.org/machine-learning-model/text2img)  
+* [Which Face Is Real](https://www.whichfaceisreal.com/)  
+* [StyleGAN: Use machine learning to generate and customize realistic images](https://www.comet.com/site/blog/stylegan-use-machine-learning-to-generate-and-customize-realistic-images/ )  
+* [A Style-Based Generator Architecture for Generative Adversarial Networks](https://arxiv.org/abs/1812.04948), on arXiv  
+* [A Style-Based Generator Architecture for Generative Adversarial Networks, in PDF](https://arxiv.org/pdf/1812.04948), on arXiv  
+* [Data Science eMeetup](https://www.meetup.com/data-science-emeetup/)  
+* [The Erium Podcast](https://theeriumpodcast.de/), about Data Science & Machine Learning  
+* [ComfyUI: The most powerful and modular stable diffusion GUI and backend](https://github.com/comfyanonymous/ComfyUI), to design and execute advanced stable diffusion pipelines using a graph/nodes/flowchart based interface  
+* [Leonardo AI: Art Generator](https://leonardo.ai/)  
+* [Leonardo AI: Creata AI Art & Generation of Images](https://leonadoai.com/)  
+
+
+Explainable AI
+
+* [Explainable Artificial Intelligence (XAI)](https://en.wikipedia.org/wiki/Explainable_artificial_intelligence), on wikipedia, or Interpretable AI, or Explainable Machine Learning (XML)  
+* [Explainable Artificial Intelligence (XAI)](https://de.wikipedia.org/wiki/Explainable_Artificial_Intelligence), on german wikipedia, oder erklärbare künstliche Intelligenz oder erklärbares Maschinenlernen  
+* GradCam  
+* DeepDream-Verfahren  
+* PermutationFeatureImportance  
+* SHAP  
+* IntegratedGradients  
+* Attentionschichten / Attention layer  
+
+
+SHAP: SHapley Additive exPlanations  
+
+* [Shapley value](https://en.wikipedia.org/wiki/Shapley_value), on wikipedia, as a solution concept in cooperative game theory  
+* [Shapley-Wert](https://de.wikipedia.org/wiki/Shapley-Wert), on german wikipedia, ist ein punktwertiges Lösungs-Konzept aus der kooperativen Spieltheorie  
+* [SHAP (SHapley Additive exPlanations), on github](https://github.com/shap/shap), as a game theoretic approach to explain the output of any machine learning model  
+* SHAP connects optimal credit allocation with local explanations using the classic Shapley values from game theory and their related extensions  
+* to be continued  
 
 
 ### Project: EEG Data processing and classification (CANCELLED)  
@@ -521,10 +677,12 @@ check:
 * [other machine learning notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_machine_learning/src/master/my_notes/notes.md)  
 * [other python notes on github](https://github.com/iscab/belajar_python/blob/main/Course2023_alfatraining_Python_Programmierung/my_notes/notes.md)  
 * [other python notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_python/src/master/my_notes/notes.md)  
+* [other ISTQB software testing notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2024_scrum_master/src/master/my_notes/notes.md)  
+* [other scrum master notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2024_scrum_master/src/master/my_notes/notes.md)  
 * [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)  
 
 
-version: 02:12 07.03.2024
+version: 02:12 28.03.2024
 
 # End of File
 
