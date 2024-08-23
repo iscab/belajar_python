@@ -1,7 +1,7 @@
 # NOTES #
 
 notes and important links for alfatraining course in machine learning, in 2023  
-(version: 00:00 01.03.2024) 
+(version: 01:15 22.08.2024) 
 
 
 Machine Learning Book: Jörg Frochte, 2020, "Maschinelles Lernen — Grundlagen und Algorithmen in Python"  
@@ -479,10 +479,12 @@ check:
 * [other deep learning notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_deep_learning/src/master/my_notes/notes.md)  
 * [other python notes on github](https://github.com/iscab/belajar_python/blob/main/Course2023_alfatraining_Python_Programmierung/my_notes/notes.md)  
 * [other python notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_python/src/master/my_notes/notes.md)  
+* [other ISTQB software testing notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2024_scrum_master/src/master/my_notes/notes.md)  
+* [other scrum master notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2024_scrum_master/src/master/my_notes/notes.md)  
 * [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)  
 
 
-version: 00:00 01.03.2024
+version: 01:15 22.08.2024
 
 # End of File
 
