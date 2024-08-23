@@ -1,7 +1,7 @@
 # NOTES #
 
 notes and important links for alfatraining course in python programming, in 2023  
-(version: 00:00 01.03.2024) 
+(version: 01:15 22.08.2024) 
 
 
 Question: what is assignment ":=" in python?  
@@ -85,9 +85,11 @@ check:
 * [other machine learning notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_machine_learning/src/master/my_notes/notes.md)  
 * [other deep learning notes on github](https://github.com/iscab/belajar_python/blob/main/Course2023_alfatraining_Deep_Learning/my_notes/notes.md)  
 * [other deep learning notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_deep_learning/src/master/my_notes/notes.md)  
+* [other ISTQB software testing notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2024_scrum_master/src/master/my_notes/notes.md)  
+* [other scrum master notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2024_scrum_master/src/master/my_notes/notes.md)  
 * [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)  
 
 
-version: 00:00 01.03.2024  
+version: 01:15 22.08.2024 
 
 # End of File
