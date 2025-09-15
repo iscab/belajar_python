@@ -1,7 +1,7 @@
 # NOTES #
 
 notes and important links for alfatraining course in deep learning, in 2023  
-(version: 02:12 28.03.2024)  
+(version: 00:45 15.09.2025)  
 
 
 Deep Learning Book: A. Geron, 2023, "Praxiseinstieg Machine Learning mit Scikit-Learn, Keras und TensorFlow"  
@@ -76,6 +76,9 @@ PyTorch:
 * [PyTorch](https://en.wikipedia.org/wiki/PyTorch), on wikipedia  
 * [PyTorch](https://de.wikipedia.org/wiki/PyTorch), on german wikipedia  
 * [PyTorch](https://id.wikipedia.org/wiki/PyTorch), di wikipedia Indonesia  
+* [Torch](https://en.wikipedia.org/wiki/Torch_(machine_learning)), on wikipedia
+* [torch7 on github](https://github.com/torch/torch7)
+* [Torch on github](https://github.com/torch)  
 
 
 OpenCV-Python
@@ -682,7 +685,7 @@ check:
 * [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)  
 
 
-version: 02:12 28.03.2024
+version: 00:45 15.09.2025
 
 # End of File
 
