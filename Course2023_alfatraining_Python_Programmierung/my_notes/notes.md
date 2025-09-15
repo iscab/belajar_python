@@ -1,7 +1,7 @@
 # NOTES #
 
 notes and important links for alfatraining course in python programming, in 2023  
-(version: 01:15 22.08.2024) 
+(version: 01:30 15.09.2025) 
 
 
 Question: what is assignment ":=" in python?  
@@ -78,18 +78,18 @@ check:
 
 * [alfatraining](https://www.alfatraining.de/gefoerderte-weiterbildung/) courses  
 * [alfatraining](https://www.alfatraining.de/) website  
-* detailed in [my private repository](https://bitbucket.org/iscab/alfatraining_2023_python/)  
+* detailed in [my private repository](https://github.com/iscab/alfatraining_2023_python), migrated from [my private repository](https://bitbucket.org/iscab/alfatraining_2023_python/)  
 * [this python notes on github](https://github.com/iscab/belajar_python/blob/main/Course2023_alfatraining_Python_Programmierung/my_notes/notes.md)  
-* [this python notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_python/src/master/my_notes/notes.md)  
+* [this python notes on github](https://github.com/iscab/alfatraining_2023_python/blob/master/my_notes/notes.md), migrated from [this python notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_python/src/master/my_notes/notes.md)  
 * [other machine learning notes on github](https://github.com/iscab/belajar_python/blob/main/Course2023_alfatraining_Machine_Learning/my_notes/notes.md)  
-* [other machine learning notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_machine_learning/src/master/my_notes/notes.md)  
+* [other machine learning notes on github](https://github.com/iscab/alfatraining_2023_machine_learning/blob/master/my_notes/notes.md), migrated from [other machine learning notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_machine_learning/src/master/my_notes/notes.md)  
 * [other deep learning notes on github](https://github.com/iscab/belajar_python/blob/main/Course2023_alfatraining_Deep_Learning/my_notes/notes.md)  
-* [other deep learning notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_deep_learning/src/master/my_notes/notes.md)  
-* [other ISTQB software testing notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2024_scrum_master/src/master/my_notes/notes.md)  
-* [other scrum master notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2024_scrum_master/src/master/my_notes/notes.md)  
+* [other deep learning notes on github](https://github.com/iscab/alfatraining_2023_deep_learning/blob/master/my_notes/notes.md), migrated from [other deep learning notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2023_deep_learning/src/master/my_notes/notes.md)  
+* [other ISTQB software testing notes on github](https://github.com/iscab/alfatraining_2024_software_testing_istqb/blob/master/my_notes/notes.md), migrated from [other ISTQB software testing notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2024_software_testing_istqb/src/master/my_notes/notes.md)  
+* [other scrum master notes on github](https://github.com/iscab/alfatraining_2024_scrum_master/blob/master/my_notes/notes.md), migrated from [other scrum master notes on bitbucket](https://bitbucket.org/iscab/alfatraining_2024_scrum_master/src/master/my_notes/notes.md)  
 * [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)  
 
 
-version: 01:15 22.08.2024 
+version: 01:30 15.09.2025 
 
 # End of File
